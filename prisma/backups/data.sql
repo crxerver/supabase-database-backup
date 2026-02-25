@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict B6FXRYw4mUyQg3yrABIns0KhAwOwT2ix0YkIUUgqSyUNFoZIvuzDQdI92jv3xgZ
+-- \restrict UGPFjOC7eRAz6Qc1adSnPi703YGs9Oa6KWLSuybxx4S6DErx2fTcQ1kC9jPCSrI
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -26,6 +26,14 @@ SET row_security = off;
 --
 
 COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "ip_address") FROM stdin;
+\.
+
+
+--
+-- Data for Name: custom_oauth_providers; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."custom_oauth_providers" ("id", "provider_type", "identifier", "name", "client_id", "client_secret", "acceptable_client_ids", "scopes", "pkce_enabled", "attribute_mapping", "authorization_params", "enabled", "email_optional", "issuer", "discovery_url", "skip_nonce_check", "cached_discovery", "discovery_cached_at", "authorization_url", "token_url", "userinfo_url", "jwks_uri", "created_at", "updated_at") FROM stdin;
 \.
 
 
@@ -236,6 +244,8 @@ COPY "public"."menu_item_addons" ("id", "menu_item_id", "name", "price", "create
 --
 
 COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "total_amount", "collection_method", "payment_method", "order_schedule", "scheduled_time", "status", "items", "created_at", "updated_at", "order_type", "customer_name", "customer_phone", "delivery_address") FROM stdin;
+1	8	96studios.mails@gmail.com	A-0001	60	delivery	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:33:36.848+00	2026-02-24 12:33:37.036062+00	online	\N	\N	462 Sebayeng unit d
+2	8	96studios.mails@gmail.com	A-0002	60	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:41:51.85+00	2026-02-24 12:41:52.481974+00	online	\N	\N	\N
 \.
 
 
@@ -368,7 +378,7 @@ SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 1, false);
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."orders_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."orders_id_seq"', 2, true);
 
 
 --
@@ -403,6 +413,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict B6FXRYw4mUyQg3yrABIns0KhAwOwT2ix0YkIUUgqSyUNFoZIvuzDQdI92jv3xgZ
+-- \unrestrict UGPFjOC7eRAz6Qc1adSnPi703YGs9Oa6KWLSuybxx4S6DErx2fTcQ1kC9jPCSrI
 
 RESET ALL;
