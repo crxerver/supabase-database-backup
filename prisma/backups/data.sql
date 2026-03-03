@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict veLLSLLgubCQM4N6d5RjJn6ro7FSu3FiAPQCjeZY5PutgZEuLgZ4BQImGW08iJV
+-- \restrict hqo05fglJdQiM4XnD9MeSJz3sceFDbbMlxPrWvFVmtpo6CkBxkCj7ewJW2Wzj3x
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -187,7 +187,7 @@ COPY "auth"."sso_domains" ("id", "sso_provider_id", "domain", "created_at", "upd
 
 COPY "public"."shops" ("id", "name", "phone_number", "email", "address", "created_by", "created_at", "suspended", "working_hours", "temporary_closed", "primary_color", "secondary_color", "accent_color", "delivery_enabled", "card_payment_enabled", "delivery_charge_within_2km") FROM stdin;
 6	Village Kota Bar	0835428310	96studios.app@gmail.com	Ga-Dikgale Titibe 0400	cr.xerver@gmail.com	2025-12-05 13:40:24.141299	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "19:00", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "19:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "19:00", "closed": false}, "wednesday": {"open": "09:00", "close": "19:00", "closed": false}}	f	#B80D0D	#000000	#d6d6d6	t	t	10
-8	Kasi Gravings	0817925033	onclickpcsolutions@gmail.com	112 Solomondale woods	cr.xerver@gmail.com	2025-12-31 10:42:33.980995	f	{"friday": {"open": "09:00", "close": "23:00", "closed": false}, "monday": {"open": "09:00", "close": "19:00", "closed": false}, "sunday": {"open": "09:00", "close": "23:00", "closed": false}, "tuesday": {"open": "09:00", "close": "19:00", "closed": false}, "saturday": {"open": "00:00", "close": "23:00", "closed": false}, "thursday": {"open": "09:00", "close": "19:00", "closed": false}, "wednesday": {"open": "09:00", "close": "19:00", "closed": false}}	f	#FF7B31	#FFAA53	#4CAF50	t	f	30
+8	Kasi kitchen	0817925033	onclickpcsolutions@gmail.com	112 Solomondale woods	cr.xerver@gmail.com	2025-12-31 10:42:33.980995	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "23:56", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "19:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "19:00", "closed": false}, "wednesday": {"open": "09:00", "close": "19:00", "closed": false}}	f	#FF7B31	#FFAA53	#4CAF50	t	f	30
 \.
 
 
@@ -246,6 +246,8 @@ COPY "public"."menu_item_addons" ("id", "menu_item_id", "name", "price", "create
 COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "total_amount", "collection_method", "payment_method", "order_schedule", "scheduled_time", "status", "items", "created_at", "updated_at", "order_type", "customer_name", "customer_phone", "delivery_address") FROM stdin;
 1	8	96studios.mails@gmail.com	A-0001	60	delivery	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:33:36.848+00	2026-02-24 12:33:37.036062+00	online	\N	\N	462 Sebayeng unit d
 2	8	96studios.mails@gmail.com	A-0002	60	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:41:51.85+00	2026-02-24 12:41:52.481974+00	online	\N	\N	\N
+3	8	96studios.mails@gmail.com	A-0001	180	pickup	cash	later	2026-03-02 23:00:00+00	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-02 09:45:14.213+00	2026-03-02 09:49:12.972+00	online	\N	\N	\N
+4	8	\N	A-0002	60	pickup	cash	now	\N	waiting	[{"name": "Jalapinos", "price": 60, "quantity": 1}]	2026-03-02 09:51:24.513155+00	2026-03-02 09:51:24.513155+00	offline	Stephen	\N	\N
 \.
 
 
@@ -378,7 +380,7 @@ SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 1, false);
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."orders_id_seq"', 2, true);
+SELECT pg_catalog.setval('"public"."orders_id_seq"', 4, true);
 
 
 --
@@ -413,6 +415,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict veLLSLLgubCQM4N6d5RjJn6ro7FSu3FiAPQCjeZY5PutgZEuLgZ4BQImGW08iJV
+-- \unrestrict hqo05fglJdQiM4XnD9MeSJz3sceFDbbMlxPrWvFVmtpo6CkBxkCj7ewJW2Wzj3x
 
 RESET ALL;
