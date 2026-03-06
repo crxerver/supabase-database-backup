@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ka7JIjjD37fwxYatbOpYljFCURShfyoKE1pQbBh5Bq2O2Fk25nsefmOS2fb82xa
+-- \restrict KvXL1GbQWaHTQG0hhJ5Ofg1lyhRvN8QcvwcCnS4MXb300Kop9NpmHhgBxuv43JL
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -187,7 +187,7 @@ COPY "auth"."sso_domains" ("id", "sso_provider_id", "domain", "created_at", "upd
 
 COPY "public"."shops" ("id", "name", "phone_number", "email", "address", "created_by", "created_at", "suspended", "working_hours", "temporary_closed", "primary_color", "secondary_color", "accent_color", "delivery_enabled", "card_payment_enabled", "delivery_charge_within_2km") FROM stdin;
 6	Village Kota Bar	0835428310	96studios.app@gmail.com	Ga-Dikgale Titibe 0400	cr.xerver@gmail.com	2025-12-05 13:40:24.141299	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "19:00", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "19:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "19:00", "closed": false}, "wednesday": {"open": "09:00", "close": "19:00", "closed": false}}	f	#B80D0D	#000000	#d6d6d6	t	t	10
-8	Kasi kitchen	0817925033	onclickpcsolutions@gmail.com	112 Solomondale woods	cr.xerver@gmail.com	2025-12-31 10:42:33.980995	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "23:56", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "23:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "19:00", "closed": false}, "wednesday": {"open": "09:00", "close": "23:00", "closed": false}}	f	#FF7B31	#FFAA53	#4CAF50	t	f	30
+8	Kasi kitchen	0817925033	onclickpcsolutions@gmail.com	112 Solomondale woods	cr.xerver@gmail.com	2025-12-31 10:42:33.980995	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "23:56", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "23:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "23:00", "closed": false}, "wednesday": {"open": "09:00", "close": "23:00", "closed": false}}	f	#FF7B31	#FFAA53	#4CAF50	t	f	30
 \.
 
 
@@ -248,6 +248,11 @@ COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "tota
 2	8	96studios.mails@gmail.com	A-0002	60	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:41:51.85+00	2026-02-24 12:41:52.481974+00	online	\N	\N	\N
 3	8	96studios.mails@gmail.com	A-0001	180	pickup	cash	later	2026-03-02 23:00:00+00	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-02 09:45:14.213+00	2026-03-02 09:49:12.972+00	online	\N	\N	\N
 4	8	\N	A-0002	60	pickup	cash	now	\N	waiting	[{"name": "Jalapinos", "price": 60, "quantity": 1}]	2026-03-02 09:51:24.513155+00	2026-03-02 09:51:24.513155+00	offline	Stephen	\N	\N
+5	8	96studios.mails@gmail.com	A-0001	300	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 5}]	2026-03-05 19:46:13.806+00	2026-03-05 19:46:13.724065+00	online	\N	\N	\N
+6	8	96studios.mails@gmail.com	A-0002	240	pickup	cash	later	2026-03-06 10:01:00+00	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:49:44.541+00	2026-03-05 19:49:43.947477+00	online	\N	\N	\N
+7	8	96studios.mails@gmail.com	A-0003	180	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-05 19:51:39.885+00	2026-03-05 19:51:39.19894+00	online	\N	\N	\N
+8	8	96studios.mails@gmail.com	A-0004	240	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:52:29.325+00	2026-03-05 19:52:28.644284+00	online	\N	\N	\N
+9	8	96studios.mails@gmail.com	A-0005	360	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 6}]	2026-03-05 19:53:38.617+00	2026-03-05 20:35:34.554+00	online	\N	\N	\N
 \.
 
 
@@ -380,7 +385,7 @@ SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 1, false);
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."orders_id_seq"', 4, true);
+SELECT pg_catalog.setval('"public"."orders_id_seq"', 9, true);
 
 
 --
@@ -415,6 +420,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ka7JIjjD37fwxYatbOpYljFCURShfyoKE1pQbBh5Bq2O2Fk25nsefmOS2fb82xa
+-- \unrestrict KvXL1GbQWaHTQG0hhJ5Ofg1lyhRvN8QcvwcCnS4MXb300Kop9NpmHhgBxuv43JL
 
 RESET ALL;
