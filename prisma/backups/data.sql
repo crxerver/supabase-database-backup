@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict lxERRSpC66krNpxbdN5uG7XxkTOwKn0ihKHBtlSAuEoUmjaWVoIFC6vJnU20Ilo
+-- \restrict lXDzCKvRwLXIXogpvigOSc277rQgkdO236jkmX2GCamwEyZ5tKLnHSGmyXuU9cF
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -223,7 +223,7 @@ COPY "public"."customer_registrations" ("id", "shop_id", "customer_email", "regi
 
 COPY "public"."menu_items" ("id", "shop_id", "name", "description", "price", "category", "image_url", "is_available", "created_at", "badge", "rating") FROM stdin;
 7	6	Burger Big Extra	Extra Everything, plus Extra Cheese and milk	49.00	Chips	https://unsplash.com/photos/dish-on-white-ceramic-plate-N_Y88TWmGwA	t	2025-12-05 13:40:25.431917	Hot	5.0
-9	8	Jalapinos	Juicy beef with souces	60.00	Kota	https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80	t	2025-12-31 10:42:34.915049	New	5.0
+9	8	Burger X	Juicy beef with souces	60.00	Kota	https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80	t	2025-12-31 10:42:34.915049	New	5.0
 \.
 
 
@@ -252,7 +252,7 @@ COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "tota
 6	8	96studios.mails@gmail.com	A-0002	240	pickup	cash	later	2026-03-06 10:01:00+00	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:49:44.541+00	2026-03-05 19:49:43.947477+00	online	\N	\N	\N
 7	8	96studios.mails@gmail.com	A-0003	180	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-05 19:51:39.885+00	2026-03-05 19:51:39.19894+00	online	\N	\N	\N
 8	8	96studios.mails@gmail.com	A-0004	240	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:52:29.325+00	2026-03-05 19:52:28.644284+00	online	\N	\N	\N
-9	8	96studios.mails@gmail.com	A-0005	360	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 6}]	2026-03-05 19:53:38.617+00	2026-03-05 20:35:34.554+00	online	\N	\N	\N
+9	8	96studios.mails@gmail.com	A-0005	360	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 6}]	2026-03-05 19:53:38.617+00	2026-03-07 15:45:44.343+00	online	\N	\N	\N
 \.
 
 
@@ -420,6 +420,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict lxERRSpC66krNpxbdN5uG7XxkTOwKn0ihKHBtlSAuEoUmjaWVoIFC6vJnU20Ilo
+-- \unrestrict lXDzCKvRwLXIXogpvigOSc277rQgkdO236jkmX2GCamwEyZ5tKLnHSGmyXuU9cF
 
 RESET ALL;
