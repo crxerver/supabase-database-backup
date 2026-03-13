@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Rep7M9DZ8lAhCsn6GmH0ulI4J205X5iRoPTaoxyMqX8E4WCH19aKJIvTvogDS03
+-- \restrict QrMB3ib5kK3jr0RRoIc6Slve0ABATAyO2UmwdeihaajTdERIgdajBVbANoHmc1F
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -196,6 +196,7 @@ COPY "public"."shops" ("id", "name", "phone_number", "email", "address", "create
 --
 
 COPY "public"."adverts" ("id", "title", "description", "image_url", "shop_id", "advert_type", "is_active", "show_duration", "display_delay", "created_by", "created_at", "starts_at", "ends_at", "priority") FROM stdin;
+1	Pizza Special	Buy one get one free special	https://picsum.photos/seed/pizza/728/90	6	specific_shop	t	10	10	cr.xerver@gmail.com	2026-03-12 10:03:30.667066	2026-03-12 10:02:00	2026-03-14 10:02:00	1
 \.
 
 
@@ -204,6 +205,7 @@ COPY "public"."adverts" ("id", "title", "description", "image_url", "shop_id", "
 --
 
 COPY "public"."advert_impressions" ("id", "advert_id", "customer_email", "shop_id", "viewed_at") FROM stdin;
+1	1	96studios.mails@gmail.com	6	2026-03-12 10:04:15.048834
 \.
 
 
@@ -253,6 +255,7 @@ COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "tota
 7	8	96studios.mails@gmail.com	A-0003	180	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-05 19:51:39.885+00	2026-03-05 19:51:39.19894+00	online	\N	\N	\N
 8	8	96studios.mails@gmail.com	A-0004	240	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:52:29.325+00	2026-03-05 19:52:28.644284+00	online	\N	\N	\N
 9	8	96studios.mails@gmail.com	A-0005	360	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 6}]	2026-03-05 19:53:38.617+00	2026-03-07 15:45:44.343+00	online	\N	\N	\N
+10	8	96studios.mails@gmail.com	A-0001	420	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Burger X", "price": 60, "addons": [], "quantity": 7}]	2026-03-12 10:29:24.133+00	2026-03-12 10:33:30.285+00	online	\N	\N	\N
 \.
 
 
@@ -350,14 +353,14 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- Name: advert_impressions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."advert_impressions_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."advert_impressions_id_seq"', 1, true);
 
 
 --
 -- Name: adverts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."adverts_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."adverts_id_seq"', 1, true);
 
 
 --
@@ -385,7 +388,7 @@ SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 1, false);
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."orders_id_seq"', 9, true);
+SELECT pg_catalog.setval('"public"."orders_id_seq"', 10, true);
 
 
 --
@@ -420,6 +423,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Rep7M9DZ8lAhCsn6GmH0ulI4J205X5iRoPTaoxyMqX8E4WCH19aKJIvTvogDS03
+-- \unrestrict QrMB3ib5kK3jr0RRoIc6Slve0ABATAyO2UmwdeihaajTdERIgdajBVbANoHmc1F
 
 RESET ALL;
