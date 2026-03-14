@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict QrMB3ib5kK3jr0RRoIc6Slve0ABATAyO2UmwdeihaajTdERIgdajBVbANoHmc1F
+-- \restrict BJ6nH7HEiIOPecrp3g6xLeIPgFBNakmg397vRa1pIbv7Km2ze6AM64mSwKxC8Ys
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -50,6 +50,10 @@ COPY "auth"."flow_state" ("id", "user_id", "auth_code", "code_challenge_method",
 --
 
 COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at", "is_anonymous") FROM stdin;
+00000000-0000-0000-0000-000000000000	142b2b8c-2016-4763-900d-e0196b53bde4	authenticated	authenticated	96studios.mails@gmail.com	\N	2026-03-13 08:13:34.904905+00	\N		\N		\N			\N	2026-03-13 12:38:36.184256+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "115146349738306143964", "name": "96Studios mails", "email": "96studios.mails@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "full_name": "96Studios mails", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "provider_id": "115146349738306143964", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:13:34.868729+00	2026-03-13 13:30:28.721716+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	f0528733-c1a9-4c49-b568-44ffeef92dd7	authenticated	authenticated	cr.xerver@gmail.com	\N	2026-03-13 08:18:10.490402+00	\N		\N		\N			\N	2026-03-13 08:18:10.493084+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "118170495262212918468", "name": "motion server", "email": "cr.xerver@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "full_name": "motion server", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "provider_id": "118170495262212918468", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:18:10.481345+00	2026-03-13 13:34:59.82177+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	authenticated	authenticated	onclickpcsolutions@gmail.com	\N	2026-03-13 08:14:40.483921+00	\N		\N		\N			\N	2026-03-13 08:19:11.392354+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "104866148233403145795", "name": "Onclick", "email": "onclickpcsolutions@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "full_name": "Onclick", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "provider_id": "104866148233403145795", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:14:40.479441+00	2026-03-13 19:23:23.137962+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	d741c16b-0a52-4562-9683-65ee480c52c3	authenticated	authenticated	96serve.web@gmail.com	\N	2026-03-13 13:13:41.414325+00	\N		\N		\N			\N	2026-03-13 13:13:41.422734+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "103589881606788558389", "name": "Stephen Kagiso", "email": "96serve.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "provider_id": "103589881606788558389", "email_verified": true, "phone_verified": false}	\N	2026-03-13 13:13:41.396563+00	2026-03-13 13:13:41.429487+00	\N	\N			\N		0	\N		\N	f	\N	f
 \.
 
 
@@ -58,6 +62,10 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 --
 
 COPY "auth"."identities" ("provider_id", "user_id", "identity_data", "provider", "last_sign_in_at", "created_at", "updated_at", "id") FROM stdin;
+118170495262212918468	f0528733-c1a9-4c49-b568-44ffeef92dd7	{"iss": "https://accounts.google.com", "sub": "118170495262212918468", "name": "motion server", "email": "cr.xerver@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "full_name": "motion server", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "provider_id": "118170495262212918468", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:18:10.4856+00	2026-03-13 08:18:10.485647+00	2026-03-13 08:18:10.485647+00	7c9ee807-08ff-4469-8e92-75a6176b71e6
+104866148233403145795	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	{"iss": "https://accounts.google.com", "sub": "104866148233403145795", "name": "Onclick", "email": "onclickpcsolutions@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "full_name": "Onclick", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "provider_id": "104866148233403145795", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:14:40.481347+00	2026-03-13 08:14:40.48139+00	2026-03-13 08:19:11.389715+00	38900795-fb1e-41e4-9265-d5c6cae0890a
+115146349738306143964	142b2b8c-2016-4763-900d-e0196b53bde4	{"iss": "https://accounts.google.com", "sub": "115146349738306143964", "name": "96Studios mails", "email": "96studios.mails@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "full_name": "96Studios mails", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "provider_id": "115146349738306143964", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:13:34.892859+00	2026-03-13 08:13:34.892912+00	2026-03-13 12:38:36.164898+00	da78d703-721e-46ee-a713-7b38e53e1633
+103589881606788558389	d741c16b-0a52-4562-9683-65ee480c52c3	{"iss": "https://accounts.google.com", "sub": "103589881606788558389", "name": "Stephen Kagiso", "email": "96serve.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "provider_id": "103589881606788558389", "email_verified": true, "phone_verified": false}	google	2026-03-13 13:13:41.408167+00	2026-03-13 13:13:41.408217+00	2026-03-13 13:13:41.408217+00	19b0c90a-196e-4762-9ba6-9cd618988a5d
 \.
 
 
@@ -82,6 +90,12 @@ COPY "auth"."oauth_clients" ("id", "client_secret_hash", "registration_type", "r
 --
 
 COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag", "oauth_client_id", "refresh_token_hmac_key", "refresh_token_counter", "scopes") FROM stdin;
+93ac1179-02c1-4fe1-8cb3-ea29665ef4a9	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-03-13 08:14:40.486139+00	2026-03-13 08:14:40.486139+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
+099cff69-69ee-4739-abcc-576d7c6e466a	142b2b8c-2016-4763-900d-e0196b53bde4	2026-03-13 12:38:36.184346+00	2026-03-13 12:38:36.184346+00	\N	aal1	\N	\N	Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1	105.233.224.10	\N	\N	\N	\N	\N
+d7e40e0f-79b1-4992-b733-814ef1df996a	d741c16b-0a52-4562-9683-65ee480c52c3	2026-03-13 13:13:41.422846+00	2026-03-13 13:13:41.422846+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
+3fd7fd67-3c48-4146-bbb1-26901e423a2b	142b2b8c-2016-4763-900d-e0196b53bde4	2026-03-13 08:55:14.287652+00	2026-03-13 13:30:28.745727+00	\N	aal1	\N	2026-03-13 13:30:28.745049	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
+93ded107-1fdf-4118-b021-73c079122f18	f0528733-c1a9-4c49-b568-44ffeef92dd7	2026-03-13 08:18:10.493173+00	2026-03-13 13:34:59.827796+00	\N	aal1	\N	2026-03-13 13:34:59.82724	Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1	105.233.224.10	\N	\N	\N	\N	\N
+eb4135f4-cb2f-41d9-849f-5e1da487fff6	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-03-13 08:19:11.392433+00	2026-03-13 19:23:23.157186+00	\N	aal1	\N	2026-03-13 19:23:23.156355	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 \.
 
 
@@ -90,6 +104,12 @@ COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id"
 --
 
 COPY "auth"."mfa_amr_claims" ("session_id", "created_at", "updated_at", "authentication_method", "id") FROM stdin;
+93ac1179-02c1-4fe1-8cb3-ea29665ef4a9	2026-03-13 08:14:40.488182+00	2026-03-13 08:14:40.488182+00	oauth	f7bfda4d-8159-4145-8835-795f0f0582aa
+93ded107-1fdf-4118-b021-73c079122f18	2026-03-13 08:18:10.496307+00	2026-03-13 08:18:10.496307+00	oauth	37584872-272d-4f78-b866-935d81aa9b9b
+eb4135f4-cb2f-41d9-849f-5e1da487fff6	2026-03-13 08:19:11.395462+00	2026-03-13 08:19:11.395462+00	oauth	ca6fd4dd-36ad-4da8-9467-b6bb621a97f5
+3fd7fd67-3c48-4146-bbb1-26901e423a2b	2026-03-13 08:55:14.301507+00	2026-03-13 08:55:14.301507+00	oauth	720fa331-32ad-4350-a613-ae3ffa9f7806
+099cff69-69ee-4739-abcc-576d7c6e466a	2026-03-13 12:38:36.226164+00	2026-03-13 12:38:36.226164+00	oauth	2f6b41a3-db90-453f-ab26-c8df7158e032
+d7e40e0f-79b1-4992-b733-814ef1df996a	2026-03-13 13:13:41.42986+00	2026-03-13 13:13:41.42986+00	oauth	441ebb79-5c69-45dd-9240-f5d2f427606a
 \.
 
 
@@ -146,6 +166,28 @@ COPY "auth"."one_time_tokens" ("id", "user_id", "token_type", "token_hash", "rel
 --
 
 COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked", "created_at", "updated_at", "parent", "session_id") FROM stdin;
+00000000-0000-0000-0000-000000000000	2	4esptllrzimq	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	f	2026-03-13 08:14:40.486949+00	2026-03-13 08:14:40.486949+00	\N	93ac1179-02c1-4fe1-8cb3-ea29665ef4a9
+00000000-0000-0000-0000-000000000000	4	o5wytrh25qle	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 08:19:11.394355+00	2026-03-13 09:18:30.662633+00	\N	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	3	biyg6fpcwnmj	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-03-13 08:18:10.494428+00	2026-03-13 09:33:05.454667+00	\N	93ded107-1fdf-4118-b021-73c079122f18
+00000000-0000-0000-0000-000000000000	7	6cbwfdw4haxa	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 09:18:30.685094+00	2026-03-13 10:16:59.962003+00	o5wytrh25qle	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	6	pnsp2ytnpm5w	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-03-13 08:55:14.296034+00	2026-03-13 10:20:28.48558+00	\N	3fd7fd67-3c48-4146-bbb1-26901e423a2b
+00000000-0000-0000-0000-000000000000	8	r66fmu4jludu	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-03-13 09:33:05.471128+00	2026-03-13 10:34:42.75626+00	biyg6fpcwnmj	93ded107-1fdf-4118-b021-73c079122f18
+00000000-0000-0000-0000-000000000000	9	ijdvwwd26mc6	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 10:16:59.969082+00	2026-03-13 11:15:31.106099+00	6cbwfdw4haxa	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	10	c7uagkfb7p5f	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-03-13 10:20:28.488375+00	2026-03-13 11:22:34.486087+00	pnsp2ytnpm5w	3fd7fd67-3c48-4146-bbb1-26901e423a2b
+00000000-0000-0000-0000-000000000000	11	63unvz5bx2mb	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-03-13 10:34:42.781619+00	2026-03-13 11:33:13.481065+00	r66fmu4jludu	93ded107-1fdf-4118-b021-73c079122f18
+00000000-0000-0000-0000-000000000000	12	iiaxbjzye4wk	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 11:15:31.126497+00	2026-03-13 12:14:04.431967+00	ijdvwwd26mc6	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	13	ziyhgazz46ku	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-03-13 11:22:34.48806+00	2026-03-13 12:23:09.98687+00	c7uagkfb7p5f	3fd7fd67-3c48-4146-bbb1-26901e423a2b
+00000000-0000-0000-0000-000000000000	14	3wtpros5hcgi	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-03-13 11:33:13.497209+00	2026-03-13 12:31:53.286284+00	63unvz5bx2mb	93ded107-1fdf-4118-b021-73c079122f18
+00000000-0000-0000-0000-000000000000	18	f5g3s2jctb7u	142b2b8c-2016-4763-900d-e0196b53bde4	f	2026-03-13 12:38:36.207551+00	2026-03-13 12:38:36.207551+00	\N	099cff69-69ee-4739-abcc-576d7c6e466a
+00000000-0000-0000-0000-000000000000	15	xs54zjkoum7r	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 12:14:04.463537+00	2026-03-13 13:12:37.593419+00	iiaxbjzye4wk	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	20	fgfp2ozvuq2c	d741c16b-0a52-4562-9683-65ee480c52c3	f	2026-03-13 13:13:41.428511+00	2026-03-13 13:13:41.428511+00	\N	d7e40e0f-79b1-4992-b733-814ef1df996a
+00000000-0000-0000-0000-000000000000	16	o75s2licuhf3	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-03-13 12:23:09.988754+00	2026-03-13 13:30:28.708001+00	ziyhgazz46ku	3fd7fd67-3c48-4146-bbb1-26901e423a2b
+00000000-0000-0000-0000-000000000000	21	muri4wd65gbg	142b2b8c-2016-4763-900d-e0196b53bde4	f	2026-03-13 13:30:28.713302+00	2026-03-13 13:30:28.713302+00	o75s2licuhf3	3fd7fd67-3c48-4146-bbb1-26901e423a2b
+00000000-0000-0000-0000-000000000000	17	i2tbpl27s7hx	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-03-13 12:31:53.298416+00	2026-03-13 13:34:59.8114+00	3wtpros5hcgi	93ded107-1fdf-4118-b021-73c079122f18
+00000000-0000-0000-0000-000000000000	22	uxgmrclttgbk	f0528733-c1a9-4c49-b568-44ffeef92dd7	f	2026-03-13 13:34:59.817395+00	2026-03-13 13:34:59.817395+00	i2tbpl27s7hx	93ded107-1fdf-4118-b021-73c079122f18
+00000000-0000-0000-0000-000000000000	19	l7dpibxjzisx	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 13:12:37.608165+00	2026-03-13 18:23:57.773278+00	xs54zjkoum7r	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	23	gi565mz2tdel	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	t	2026-03-13 18:23:57.805194+00	2026-03-13 19:23:23.110041+00	l7dpibxjzisx	eb4135f4-cb2f-41d9-849f-5e1da487fff6
+00000000-0000-0000-0000-000000000000	24	zmgcqq42xt4k	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	f	2026-03-13 19:23:23.129352+00	2026-03-13 19:23:23.129352+00	gi565mz2tdel	eb4135f4-cb2f-41d9-849f-5e1da487fff6
 \.
 
 
@@ -192,20 +234,24 @@ COPY "public"."shops" ("id", "name", "phone_number", "email", "address", "create
 
 
 --
--- Data for Name: adverts; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."adverts" ("id", "title", "description", "image_url", "shop_id", "advert_type", "is_active", "show_duration", "display_delay", "created_by", "created_at", "starts_at", "ends_at", "priority") FROM stdin;
-1	Pizza Special	Buy one get one free special	https://picsum.photos/seed/pizza/728/90	6	specific_shop	t	10	10	cr.xerver@gmail.com	2026-03-12 10:03:30.667066	2026-03-12 10:02:00	2026-03-14 10:02:00	1
-\.
-
-
---
 -- Data for Name: advert_impressions; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY "public"."advert_impressions" ("id", "advert_id", "customer_email", "shop_id", "viewed_at") FROM stdin;
 1	1	96studios.mails@gmail.com	6	2026-03-12 10:04:15.048834
+3	3	96studios.mails@gmail.com	8	2026-03-13 08:53:48.35109
+4	4	96studios.mails@gmail.com	8	2026-03-13 11:53:30.718776
+5	5	96studios.mails@gmail.com	8	2026-03-13 11:55:58.547033
+6	5	96serve.web@gmail.com	8	2026-03-13 13:13:58.474242
+\.
+
+
+--
+-- Data for Name: adverts; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."adverts" ("id", "title", "description", "image_url", "advert_type", "shop_id", "display_delay", "show_duration", "priority", "is_active", "starts_at", "ends_at", "created_by", "created_at") FROM stdin;
+5	Burger Special	Weekend special	https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=600&fit=crop	specific_shop	8	10	20	1	t	2026-03-13 11:55:00+00	2026-03-15 11:55:00+00	cr.xerver@gmail.com	2026-03-13 11:55:31.978199+00
 \.
 
 
@@ -216,6 +262,7 @@ COPY "public"."advert_impressions" ("id", "advert_id", "customer_email", "shop_i
 COPY "public"."customer_registrations" ("id", "shop_id", "customer_email", "registered_at") FROM stdin;
 3	6	96studios.mails@gmail.com	2025-12-05 13:41:38.311599
 7	8	96studios.mails@gmail.com	2025-12-31 10:43:32.572187
+1	8	96serve.web@gmail.com	2026-03-13 13:12:19.969877
 \.
 
 
@@ -246,16 +293,6 @@ COPY "public"."menu_item_addons" ("id", "menu_item_id", "name", "price", "create
 --
 
 COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "total_amount", "collection_method", "payment_method", "order_schedule", "scheduled_time", "status", "items", "created_at", "updated_at", "order_type", "customer_name", "customer_phone", "delivery_address") FROM stdin;
-1	8	96studios.mails@gmail.com	A-0001	60	delivery	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:33:36.848+00	2026-02-24 12:33:37.036062+00	online	\N	\N	462 Sebayeng unit d
-2	8	96studios.mails@gmail.com	A-0002	60	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 1}]	2026-02-24 12:41:51.85+00	2026-02-24 12:41:52.481974+00	online	\N	\N	\N
-3	8	96studios.mails@gmail.com	A-0001	180	pickup	cash	later	2026-03-02 23:00:00+00	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-02 09:45:14.213+00	2026-03-02 09:49:12.972+00	online	\N	\N	\N
-4	8	\N	A-0002	60	pickup	cash	now	\N	waiting	[{"name": "Jalapinos", "price": 60, "quantity": 1}]	2026-03-02 09:51:24.513155+00	2026-03-02 09:51:24.513155+00	offline	Stephen	\N	\N
-5	8	96studios.mails@gmail.com	A-0001	300	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 5}]	2026-03-05 19:46:13.806+00	2026-03-05 19:46:13.724065+00	online	\N	\N	\N
-6	8	96studios.mails@gmail.com	A-0002	240	pickup	cash	later	2026-03-06 10:01:00+00	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:49:44.541+00	2026-03-05 19:49:43.947477+00	online	\N	\N	\N
-7	8	96studios.mails@gmail.com	A-0003	180	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 3}]	2026-03-05 19:51:39.885+00	2026-03-05 19:51:39.19894+00	online	\N	\N	\N
-8	8	96studios.mails@gmail.com	A-0004	240	pickup	cash	now	\N	waiting	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 4}]	2026-03-05 19:52:29.325+00	2026-03-05 19:52:28.644284+00	online	\N	\N	\N
-9	8	96studios.mails@gmail.com	A-0005	360	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Jalapinos", "price": 60, "addons": [], "quantity": 6}]	2026-03-05 19:53:38.617+00	2026-03-07 15:45:44.343+00	online	\N	\N	\N
-10	8	96studios.mails@gmail.com	A-0001	420	pickup	cash	now	\N	preparing	[{"id": 9, "name": "Burger X", "price": 60, "addons": [], "quantity": 7}]	2026-03-12 10:29:24.133+00	2026-03-12 10:33:30.285+00	online	\N	\N	\N
 \.
 
 
@@ -270,10 +307,20 @@ COPY "public"."shop_admins" ("id", "shop_id", "admin_email", "created_at") FROM 
 
 
 --
+-- Data for Name: shop_adverts; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."shop_adverts" ("id", "shop_id", "image_url", "duration_days", "starts_at", "expires_at", "is_active", "created_by", "created_at") FROM stdin;
+2	8	https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=600&fit=crop	2	2026-03-13 11:10:03.609+00	2026-03-15 11:10:03.609+00	t	cr.xerver@gmail.com	2026-03-13 11:10:03.392064+00
+\.
+
+
+--
 -- Data for Name: shop_reminders; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY "public"."shop_reminders" ("id", "shop_id", "message", "reminder_type", "sent_by", "sent_at", "is_read", "read_at") FROM stdin;
+1	8	Welcome to Limpopo.mifood.online, to you by 96 studios.	general	cr.xerver@gmail.com	2026-03-13 08:58:45.10832	t	2026-03-13 08:59:28.216
 \.
 
 
@@ -346,28 +393,28 @@ COPY "storage"."vector_indexes" ("id", "name", "bucket_id", "data_type", "dimens
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 24, true);
 
 
 --
 -- Name: advert_impressions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."advert_impressions_id_seq"', 1, true);
+SELECT pg_catalog.setval('"public"."advert_impressions_id_seq"', 6, true);
 
 
 --
 -- Name: adverts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."adverts_id_seq"', 1, true);
+SELECT pg_catalog.setval('"public"."adverts_id_seq"', 5, true);
 
 
 --
 -- Name: customer_registrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."customer_registrations_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."customer_registrations_id_seq"', 1, true);
 
 
 --
@@ -388,7 +435,7 @@ SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 1, false);
 -- Name: orders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."orders_id_seq"', 10, true);
+SELECT pg_catalog.setval('"public"."orders_id_seq"', 13, true);
 
 
 --
@@ -399,10 +446,17 @@ SELECT pg_catalog.setval('"public"."shop_admins_id_seq"', 1, false);
 
 
 --
+-- Name: shop_adverts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."shop_adverts_id_seq"', 2, true);
+
+
+--
 -- Name: shop_reminders_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."shop_reminders_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."shop_reminders_id_seq"', 1, true);
 
 
 --
@@ -423,6 +477,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict QrMB3ib5kK3jr0RRoIc6Slve0ABATAyO2UmwdeihaajTdERIgdajBVbANoHmc1F
+-- \unrestrict BJ6nH7HEiIOPecrp3g6xLeIPgFBNakmg397vRa1pIbv7Km2ze6AM64mSwKxC8Ys
 
 RESET ALL;

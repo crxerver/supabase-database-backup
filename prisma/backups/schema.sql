@@ -86,19 +86,19 @@ ALTER SEQUENCE "public"."advert_impressions_id_seq" OWNED BY "public"."advert_im
 
 CREATE TABLE IF NOT EXISTS "public"."adverts" (
     "id" integer NOT NULL,
-    "title" character varying(255) NOT NULL,
+    "title" character varying NOT NULL,
     "description" "text",
     "image_url" "text" NOT NULL,
+    "advert_type" character varying NOT NULL,
     "shop_id" integer,
-    "advert_type" character varying(50) DEFAULT 'specific_shop'::character varying,
-    "is_active" boolean DEFAULT true,
-    "show_duration" integer DEFAULT 10,
     "display_delay" integer DEFAULT 10,
-    "created_by" character varying(255) NOT NULL,
-    "created_at" timestamp without time zone DEFAULT "now"(),
-    "starts_at" timestamp without time zone DEFAULT "now"(),
-    "ends_at" timestamp without time zone,
-    "priority" integer DEFAULT 1
+    "show_duration" integer DEFAULT 10,
+    "priority" integer DEFAULT 1,
+    "is_active" boolean DEFAULT true,
+    "starts_at" timestamp with time zone DEFAULT "now"(),
+    "ends_at" timestamp with time zone,
+    "created_by" character varying NOT NULL,
+    "created_at" timestamp with time zone DEFAULT "now"()
 );
 
 
@@ -277,6 +277,37 @@ ALTER SEQUENCE "public"."shop_admins_id_seq" OWNED BY "public"."shop_admins"."id
 
 
 
+CREATE TABLE IF NOT EXISTS "public"."shop_adverts" (
+    "id" bigint NOT NULL,
+    "shop_id" bigint,
+    "image_url" "text" NOT NULL,
+    "duration_days" integer NOT NULL,
+    "starts_at" timestamp with time zone DEFAULT "now"(),
+    "expires_at" timestamp with time zone NOT NULL,
+    "is_active" boolean DEFAULT true,
+    "created_by" "text" NOT NULL,
+    "created_at" timestamp with time zone DEFAULT "now"()
+);
+
+
+ALTER TABLE "public"."shop_adverts" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."shop_adverts_id_seq"
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE "public"."shop_adverts_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."shop_adverts_id_seq" OWNED BY "public"."shop_adverts"."id";
+
+
+
 CREATE TABLE IF NOT EXISTS "public"."shop_reminders" (
     "id" integer NOT NULL,
     "shop_id" integer NOT NULL,
@@ -406,6 +437,10 @@ ALTER TABLE ONLY "public"."shop_admins" ALTER COLUMN "id" SET DEFAULT "nextval"(
 
 
 
+ALTER TABLE ONLY "public"."shop_adverts" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."shop_adverts_id_seq"'::"regclass");
+
+
+
 ALTER TABLE ONLY "public"."shop_reminders" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."shop_reminders_id_seq"'::"regclass");
 
 
@@ -458,6 +493,11 @@ ALTER TABLE ONLY "public"."shop_admins"
 
 
 
+ALTER TABLE ONLY "public"."shop_adverts"
+    ADD CONSTRAINT "shop_adverts_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."shop_reminders"
     ADD CONSTRAINT "shop_reminders_pkey" PRIMARY KEY ("id");
 
@@ -487,19 +527,15 @@ CREATE INDEX "idx_advert_impressions_customer" ON "public"."advert_impressions" 
 
 
 
-CREATE INDEX "idx_adverts_active" ON "public"."adverts" USING "btree" ("is_active");
+CREATE INDEX "idx_shop_adverts_expires_at" ON "public"."shop_adverts" USING "btree" ("expires_at");
 
 
 
-CREATE INDEX "idx_adverts_dates" ON "public"."adverts" USING "btree" ("starts_at", "ends_at");
+CREATE INDEX "idx_shop_adverts_is_active" ON "public"."shop_adverts" USING "btree" ("is_active");
 
 
 
-CREATE INDEX "idx_adverts_shop_id" ON "public"."adverts" USING "btree" ("shop_id");
-
-
-
-CREATE INDEX "idx_adverts_type" ON "public"."adverts" USING "btree" ("advert_type");
+CREATE INDEX "idx_shop_adverts_shop_id" ON "public"."shop_adverts" USING "btree" ("shop_id");
 
 
 
@@ -516,17 +552,12 @@ CREATE INDEX "idx_shop_reminders_shop_id" ON "public"."shop_reminders" USING "bt
 
 
 ALTER TABLE ONLY "public"."advert_impressions"
-    ADD CONSTRAINT "advert_impressions_advert_id_fkey" FOREIGN KEY ("advert_id") REFERENCES "public"."adverts"("id") ON DELETE CASCADE;
-
-
-
-ALTER TABLE ONLY "public"."advert_impressions"
     ADD CONSTRAINT "advert_impressions_shop_id_fkey" FOREIGN KEY ("shop_id") REFERENCES "public"."shops"("id") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."adverts"
-    ADD CONSTRAINT "adverts_shop_id_fkey" FOREIGN KEY ("shop_id") REFERENCES "public"."shops"("id") ON DELETE CASCADE;
+    ADD CONSTRAINT "adverts_shop_id_fkey" FOREIGN KEY ("shop_id") REFERENCES "public"."shops"("id");
 
 
 
@@ -552,6 +583,11 @@ ALTER TABLE ONLY "public"."orders"
 
 ALTER TABLE ONLY "public"."shop_admins"
     ADD CONSTRAINT "shop_admins_shop_id_fkey" FOREIGN KEY ("shop_id") REFERENCES "public"."shops"("id");
+
+
+
+ALTER TABLE ONLY "public"."shop_adverts"
+    ADD CONSTRAINT "shop_adverts_shop_id_fkey" FOREIGN KEY ("shop_id") REFERENCES "public"."shops"("id") ON DELETE CASCADE;
 
 
 
@@ -818,6 +854,18 @@ GRANT ALL ON TABLE "public"."shop_admins" TO "service_role";
 GRANT ALL ON SEQUENCE "public"."shop_admins_id_seq" TO "anon";
 GRANT ALL ON SEQUENCE "public"."shop_admins_id_seq" TO "authenticated";
 GRANT ALL ON SEQUENCE "public"."shop_admins_id_seq" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."shop_adverts" TO "anon";
+GRANT ALL ON TABLE "public"."shop_adverts" TO "authenticated";
+GRANT ALL ON TABLE "public"."shop_adverts" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."shop_adverts_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."shop_adverts_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."shop_adverts_id_seq" TO "service_role";
 
 
 
