@@ -187,7 +187,8 @@ CREATE TABLE IF NOT EXISTS "public"."menu_items" (
     "is_available" boolean DEFAULT true,
     "created_at" timestamp without time zone DEFAULT "now"(),
     "badge" character varying(50),
-    "rating" numeric(2,1)
+    "rating" numeric(2,1),
+    "preparation_time" "text" DEFAULT '15-30'::"text"
 );
 
 
