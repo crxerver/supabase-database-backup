@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ScS4IPRpiOXuyWl7oSkALlvOkkehH11Aypx3gAB3gdZxV4P1e6lj5cgWxXqjSAE
+-- \restrict oG2IdWk4T3LOmgoj9sMZMfyOCiXpgw5j6XCLed9sWtonL3uEubOxefW8r5NJ4Iq
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -51,9 +51,9 @@ ff15d4b6-02b5-4488-b61e-f994a2a08575	\N	\N	\N	\N	google			2026-04-09 11:13:33.01
 --
 
 COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at", "is_anonymous") FROM stdin;
-00000000-0000-0000-0000-000000000000	142b2b8c-2016-4763-900d-e0196b53bde4	authenticated	authenticated	96studios.mails@gmail.com	\N	2026-03-13 08:13:34.904905+00	\N		\N		\N			\N	2026-04-09 20:03:59.204531+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "115146349738306143964", "name": "96Studios mails", "email": "96studios.mails@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "full_name": "96Studios mails", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "provider_id": "115146349738306143964", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:13:34.868729+00	2026-04-29 16:14:55.335807+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	f0528733-c1a9-4c49-b568-44ffeef92dd7	authenticated	authenticated	cr.xerver@gmail.com	\N	2026-03-13 08:18:10.490402+00	\N		\N		\N			\N	2026-03-25 09:05:41.161289+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "118170495262212918468", "name": "motion server", "email": "cr.xerver@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "full_name": "motion server", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "provider_id": "118170495262212918468", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:18:10.481345+00	2026-04-12 21:04:43.106606+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	142b2b8c-2016-4763-900d-e0196b53bde4	authenticated	authenticated	96studios.mails@gmail.com	\N	2026-03-13 08:13:34.904905+00	\N		\N		\N			\N	2026-04-09 20:03:59.204531+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "115146349738306143964", "name": "96Studios mails", "email": "96studios.mails@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "full_name": "96Studios mails", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "provider_id": "115146349738306143964", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:13:34.868729+00	2026-04-30 17:29:07.56361+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	d741c16b-0a52-4562-9683-65ee480c52c3	authenticated	authenticated	96serve.web@gmail.com	\N	2026-03-13 13:13:41.414325+00	\N		\N		\N			\N	2026-03-13 13:13:41.422734+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "103589881606788558389", "name": "Stephen Kagiso", "email": "96serve.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "provider_id": "103589881606788558389", "email_verified": true, "phone_verified": false}	\N	2026-03-13 13:13:41.396563+00	2026-03-13 13:13:41.429487+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	f0528733-c1a9-4c49-b568-44ffeef92dd7	authenticated	authenticated	cr.xerver@gmail.com	\N	2026-03-13 08:18:10.490402+00	\N		\N		\N			\N	2026-04-30 11:05:11.155261+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "118170495262212918468", "name": "motion server", "email": "cr.xerver@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "full_name": "motion server", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "provider_id": "118170495262212918468", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:18:10.481345+00	2026-04-30 15:54:27.855922+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	026ba4d8-41e7-4d5e-ac4b-3864dbfa5ef3	authenticated	authenticated	96studios.web@gmail.com	\N	2026-03-25 09:52:56.749922+00	\N		\N		\N			\N	2026-03-25 09:52:56.760133+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "100607388465311126899", "name": "96 Studios", "email": "96studios.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKq4VJfQiTRMyYCeHvQgZkN7Uh4-rOx489BA4Ouw8_kBCDphXE=s96-c", "full_name": "96 Studios", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKq4VJfQiTRMyYCeHvQgZkN7Uh4-rOx489BA4Ouw8_kBCDphXE=s96-c", "provider_id": "100607388465311126899", "email_verified": true, "phone_verified": false}	\N	2026-03-25 09:52:56.711779+00	2026-03-27 08:00:54.255737+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	authenticated	authenticated	stephensmail.sa@gmail.com	\N	2026-03-20 22:54:42.026364+00	\N		\N		\N			\N	2026-03-25 21:08:10.199164+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "115013125568003146502", "name": "Stephen Kagiso", "email": "stephensmail.sa@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ4179-FGLdhU5BIhvIBShA13LsHCmfVHhNUwJfFCKgDqK6ZQ=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJ4179-FGLdhU5BIhvIBShA13LsHCmfVHhNUwJfFCKgDqK6ZQ=s96-c", "provider_id": "115013125568003146502", "email_verified": true, "phone_verified": false}	\N	2026-03-20 22:54:41.976469+00	2026-03-25 22:07:11.621973+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	authenticated	authenticated	onclickpcsolutions@gmail.com	\N	2026-03-13 08:14:40.483921+00	\N		\N		\N			\N	2026-04-09 08:07:15.761224+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "104866148233403145795", "name": "Onclick", "email": "onclickpcsolutions@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "full_name": "Onclick", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "provider_id": "104866148233403145795", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:14:40.479441+00	2026-04-13 10:25:13.858386+00	\N	\N			\N		0	\N		\N	f	\N	f
@@ -68,9 +68,9 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 COPY "auth"."identities" ("provider_id", "user_id", "identity_data", "provider", "last_sign_in_at", "created_at", "updated_at", "id") FROM stdin;
 115146349738306143964	142b2b8c-2016-4763-900d-e0196b53bde4	{"iss": "https://accounts.google.com", "sub": "115146349738306143964", "name": "96Studios mails", "email": "96studios.mails@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "full_name": "96Studios mails", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIUwozUIibSAMf_zPYrVv3tdooEvUcrAjzqHstxnNCK5n3cqQw=s96-c", "provider_id": "115146349738306143964", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:13:34.892859+00	2026-03-13 08:13:34.892912+00	2026-04-09 20:03:59.196224+00	da78d703-721e-46ee-a713-7b38e53e1633
 111283406834333464244	e4007f92-db7a-446a-a199-5ec1fc6408d1	{"iss": "https://accounts.google.com", "sub": "111283406834333464244", "name": "96 studios", "email": "96studios.app@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIMdEUG2pF7Th9DhyuSpoZNd21x5zHnAvh7HrdCytoQEklOf3w=s96-c", "full_name": "96 studios", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIMdEUG2pF7Th9DhyuSpoZNd21x5zHnAvh7HrdCytoQEklOf3w=s96-c", "provider_id": "111283406834333464244", "email_verified": true, "phone_verified": false}	google	2026-03-25 09:54:29.531139+00	2026-03-25 09:54:29.531189+00	2026-04-10 12:20:55.807192+00	cabfcc17-4962-4a00-a13b-19d1234c251b
-118170495262212918468	f0528733-c1a9-4c49-b568-44ffeef92dd7	{"iss": "https://accounts.google.com", "sub": "118170495262212918468", "name": "motion server", "email": "cr.xerver@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "full_name": "motion server", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "provider_id": "118170495262212918468", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:18:10.4856+00	2026-03-13 08:18:10.485647+00	2026-03-25 09:05:41.143283+00	7c9ee807-08ff-4469-8e92-75a6176b71e6
 100607388465311126899	026ba4d8-41e7-4d5e-ac4b-3864dbfa5ef3	{"iss": "https://accounts.google.com", "sub": "100607388465311126899", "name": "96 Studios", "email": "96studios.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKq4VJfQiTRMyYCeHvQgZkN7Uh4-rOx489BA4Ouw8_kBCDphXE=s96-c", "full_name": "96 Studios", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKq4VJfQiTRMyYCeHvQgZkN7Uh4-rOx489BA4Ouw8_kBCDphXE=s96-c", "provider_id": "100607388465311126899", "email_verified": true, "phone_verified": false}	google	2026-03-25 09:52:56.733676+00	2026-03-25 09:52:56.733738+00	2026-03-25 09:52:56.733738+00	7e92493a-19b7-44a7-b0a5-ba8861672999
 103589881606788558389	d741c16b-0a52-4562-9683-65ee480c52c3	{"iss": "https://accounts.google.com", "sub": "103589881606788558389", "name": "Stephen Kagiso", "email": "96serve.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocILMw2RFEaDgnAd6C6OHLjnmQ9iXZUQbDGBumMiL5Kh0XVgE_0=s96-c", "provider_id": "103589881606788558389", "email_verified": true, "phone_verified": false}	google	2026-03-13 13:13:41.408167+00	2026-03-13 13:13:41.408217+00	2026-03-13 13:13:41.408217+00	19b0c90a-196e-4762-9ba6-9cd618988a5d
+118170495262212918468	f0528733-c1a9-4c49-b568-44ffeef92dd7	{"iss": "https://accounts.google.com", "sub": "118170495262212918468", "name": "motion server", "email": "cr.xerver@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "full_name": "motion server", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIWltCxcZFvoCgKdtirhHTBIrOL-Q7RBrGd-p-HdKroXMS3vw=s96-c", "provider_id": "118170495262212918468", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:18:10.4856+00	2026-03-13 08:18:10.485647+00	2026-04-30 11:05:11.121136+00	7c9ee807-08ff-4469-8e92-75a6176b71e6
 104866148233403145795	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	{"iss": "https://accounts.google.com", "sub": "104866148233403145795", "name": "Onclick", "email": "onclickpcsolutions@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "full_name": "Onclick", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "provider_id": "104866148233403145795", "email_verified": true, "phone_verified": false}	google	2026-03-13 08:14:40.481347+00	2026-03-13 08:14:40.48139+00	2026-04-09 08:07:15.753352+00	38900795-fb1e-41e4-9265-d5c6cae0890a
 115013125568003146502	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	{"iss": "https://accounts.google.com", "sub": "115013125568003146502", "name": "Stephen Kagiso", "email": "stephensmail.sa@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ4179-FGLdhU5BIhvIBShA13LsHCmfVHhNUwJfFCKgDqK6ZQ=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJ4179-FGLdhU5BIhvIBShA13LsHCmfVHhNUwJfFCKgDqK6ZQ=s96-c", "provider_id": "115013125568003146502", "email_verified": true, "phone_verified": false}	google	2026-03-20 22:54:42.016761+00	2026-03-20 22:54:42.016818+00	2026-03-25 21:08:10.1887+00	54c06fc0-4b89-40ab-b548-21c9881b485d
 \.
@@ -105,19 +105,20 @@ eb4135f4-cb2f-41d9-849f-5e1da487fff6	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-0
 8c15dbad-cd1a-4c8d-9709-520aa1445995	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	2026-03-20 22:54:42.03677+00	2026-03-22 11:11:51.483011+00	\N	aal1	\N	2026-03-22 11:11:51.48177	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 459bf60c-c65d-4990-9341-a9fa42884a4c	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	2026-03-25 21:08:10.200402+00	2026-03-25 22:07:11.641298+00	\N	aal1	\N	2026-03-25 22:07:11.638919	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 b8946608-7a5a-4edf-9ee6-dbc33f7f7b1b	142b2b8c-2016-4763-900d-e0196b53bde4	2026-04-09 13:08:31.530808+00	2026-04-13 09:29:40.329281+00	\N	aal1	\N	2026-04-13 09:29:40.328541	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
+a6b647ef-59c4-474b-adf3-dff5b0d5377f	f0528733-c1a9-4c49-b568-44ffeef92dd7	2026-04-30 11:05:11.157692+00	2026-04-30 15:54:27.876291+00	\N	aal1	\N	2026-04-30 15:54:27.875477	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 c5338da3-4cc1-48f9-9c80-846b701cc1ff	f0528733-c1a9-4c49-b568-44ffeef92dd7	2026-03-20 08:21:02.474058+00	2026-03-22 16:04:56.831869+00	\N	aal1	\N	2026-03-22 16:04:56.831137	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 a4c0159a-079f-47ad-ab5e-edc6acc8befd	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-04-10 12:20:55.833698+00	2026-04-13 10:25:13.872781+00	\N	aal1	\N	2026-04-13 10:25:13.872693	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 ce8e293e-444e-4bde-9815-b9b6538192d7	142b2b8c-2016-4763-900d-e0196b53bde4	2026-04-09 20:01:52.146838+00	2026-04-09 20:01:52.146838+00	\N	aal1	\N	\N	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36	102.254.179.22	\N	\N	\N	\N	\N
 498ac1d7-6e9c-4ce9-b0a9-8e74546675fc	026ba4d8-41e7-4d5e-ac4b-3864dbfa5ef3	2026-03-25 09:52:56.761474+00	2026-03-27 08:00:54.262881+00	\N	aal1	\N	2026-03-27 08:00:54.261633	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 94ab7a5c-7a42-4d0b-b205-a443e8cf9d50	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-03-24 21:10:42.373045+00	2026-03-27 08:52:59.906896+00	\N	aal1	\N	2026-03-27 08:52:59.906178	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 80b0d94c-faef-42d1-8ca0-eb405c9d1e53	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-04-09 07:55:33.214702+00	2026-04-13 10:25:13.872784+00	\N	aal1	\N	2026-04-13 10:25:13.872684	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
+26d74b89-9df6-4ed9-a60c-8e1c198ccd21	142b2b8c-2016-4763-900d-e0196b53bde4	2026-04-09 20:03:59.204646+00	2026-04-30 17:29:07.58024+00	\N	aal1	\N	2026-04-30 17:29:07.58013	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 47d42fdb-f787-416c-81a2-1294647f2a5e	f0528733-c1a9-4c49-b568-44ffeef92dd7	2026-03-25 09:05:41.16262+00	2026-04-12 21:04:43.118733+00	\N	aal1	\N	2026-04-12 21:04:43.118616	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	102.253.50.16	\N	\N	\N	\N	\N
 77f538d6-eb79-488a-a307-ec279cd07475	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-03-25 09:54:29.53807+00	2026-04-05 18:26:52.865753+00	\N	aal1	\N	2026-04-05 18:26:52.865641	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 cde96bb3-d33f-4e16-adb3-0438cb247ae6	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-04-09 08:08:55.699676+00	2026-04-10 07:22:23.766726+00	\N	aal1	\N	2026-04-10 07:22:23.766627	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 c3d223ef-ceb5-4561-84cd-63d3f7a05328	142b2b8c-2016-4763-900d-e0196b53bde4	2026-04-09 13:07:34.261132+00	2026-04-09 13:07:34.261132+00	\N	aal1	\N	\N	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	102.253.51.25	\N	\N	\N	\N	\N
 66c1f766-2d64-42c3-9dad-62cb363d79e6	142b2b8c-2016-4763-900d-e0196b53bde4	2026-04-09 09:01:38.459782+00	2026-04-09 14:49:44.974533+00	\N	aal1	\N	2026-04-09 14:49:44.97442	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	102.254.179.22	\N	\N	\N	\N	\N
 034891e4-03aa-4dc1-b621-0444c5ac4c7a	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-04-09 08:07:15.762883+00	2026-04-09 17:49:26.881402+00	\N	aal1	\N	2026-04-09 17:49:26.881295	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36	102.253.51.25	\N	\N	\N	\N	\N
-26d74b89-9df6-4ed9-a60c-8e1c198ccd21	142b2b8c-2016-4763-900d-e0196b53bde4	2026-04-09 20:03:59.204646+00	2026-04-29 16:14:55.349604+00	\N	aal1	\N	2026-04-29 16:14:55.349456	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	102.254.20.4	\N	\N	\N	\N	\N
 \.
 
 
@@ -147,6 +148,7 @@ b8946608-7a5a-4edf-9ee6-dbc33f7f7b1b	2026-04-09 13:08:31.533498+00	2026-04-09 13
 ce8e293e-444e-4bde-9815-b9b6538192d7	2026-04-09 20:01:52.180146+00	2026-04-09 20:01:52.180146+00	oauth	e5e44e47-5ed4-4e2d-8db0-2e985b40370a
 26d74b89-9df6-4ed9-a60c-8e1c198ccd21	2026-04-09 20:03:59.248469+00	2026-04-09 20:03:59.248469+00	oauth	2cf2f510-231b-48a2-bd17-dc30fa267280
 a4c0159a-079f-47ad-ab5e-edc6acc8befd	2026-04-10 12:20:55.893711+00	2026-04-10 12:20:55.893711+00	oauth	1a62c83f-722a-40c9-801b-808190f3dbe0
+a6b647ef-59c4-474b-adf3-dff5b0d5377f	2026-04-30 11:05:11.216237+00	2026-04-30 11:05:11.216237+00	oauth	8811bed2-bd97-4aa1-89ed-11236bb02716
 \.
 
 
@@ -486,7 +488,12 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	371	vge54ypitrdi	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-04-24 12:14:08.099003+00	2026-04-25 07:52:32.747255+00	q3x44qatap6v	26d74b89-9df6-4ed9-a60c-8e1c198ccd21
 00000000-0000-0000-0000-000000000000	372	htzrxiwsppzl	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-04-25 07:52:32.781023+00	2026-04-29 15:11:00.234557+00	vge54ypitrdi	26d74b89-9df6-4ed9-a60c-8e1c198ccd21
 00000000-0000-0000-0000-000000000000	373	qlmq5zh2oyup	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-04-29 15:11:00.272153+00	2026-04-29 16:14:55.307631+00	htzrxiwsppzl	26d74b89-9df6-4ed9-a60c-8e1c198ccd21
-00000000-0000-0000-0000-000000000000	374	jqxi6gfwbsyo	142b2b8c-2016-4763-900d-e0196b53bde4	f	2026-04-29 16:14:55.325362+00	2026-04-29 16:14:55.325362+00	qlmq5zh2oyup	26d74b89-9df6-4ed9-a60c-8e1c198ccd21
+00000000-0000-0000-0000-000000000000	375	2hjjyydqnkbe	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-04-30 11:05:11.18005+00	2026-04-30 12:03:15.82012+00	\N	a6b647ef-59c4-474b-adf3-dff5b0d5377f
+00000000-0000-0000-0000-000000000000	376	2edqz6nmwzxf	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-04-30 12:03:15.835247+00	2026-04-30 13:01:16.645791+00	2hjjyydqnkbe	a6b647ef-59c4-474b-adf3-dff5b0d5377f
+00000000-0000-0000-0000-000000000000	377	l4pppocxpl5l	f0528733-c1a9-4c49-b568-44ffeef92dd7	t	2026-04-30 13:01:16.667934+00	2026-04-30 15:54:27.81265+00	2edqz6nmwzxf	a6b647ef-59c4-474b-adf3-dff5b0d5377f
+00000000-0000-0000-0000-000000000000	378	3dicx56wlt37	f0528733-c1a9-4c49-b568-44ffeef92dd7	f	2026-04-30 15:54:27.836908+00	2026-04-30 15:54:27.836908+00	l4pppocxpl5l	a6b647ef-59c4-474b-adf3-dff5b0d5377f
+00000000-0000-0000-0000-000000000000	374	jqxi6gfwbsyo	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-04-29 16:14:55.325362+00	2026-04-30 17:29:07.517559+00	qlmq5zh2oyup	26d74b89-9df6-4ed9-a60c-8e1c198ccd21
+00000000-0000-0000-0000-000000000000	379	lqwmfp7rqacy	142b2b8c-2016-4763-900d-e0196b53bde4	f	2026-04-30 17:29:07.549925+00	2026-04-30 17:29:07.549925+00	jqxi6gfwbsyo	26d74b89-9df6-4ed9-a60c-8e1c198ccd21
 \.
 
 
@@ -545,6 +552,7 @@ COPY "auth"."webauthn_credentials" ("id", "user_id", "credential_id", "public_ke
 COPY "public"."shops" ("id", "name", "phone_number", "email", "address", "created_by", "created_at", "suspended", "working_hours", "temporary_closed", "primary_color", "secondary_color", "accent_color", "delivery_enabled", "card_payment_enabled", "delivery_charge_within_2km") FROM stdin;
 6	Mama's kitchen	0835428310	96studios.app@gmail.com	Sebayeng unit A 0400	cr.xerver@gmail.com	2025-12-05 13:40:24.141299	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "19:00", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "19:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "23:00", "closed": false}, "wednesday": {"open": "09:00", "close": "23:59", "closed": false}}	f	#B80D0D	#000000	#d6d6d6	t	t	10
 8	Kasi kitchen	0817925033	onclickpcsolutions@gmail.com	112 Solomondale woods	cr.xerver@gmail.com	2025-12-31 10:42:33.980995	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "23:56", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "23:59", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "23:00", "closed": false}, "wednesday": {"open": "09:00", "close": "19:00", "closed": false}}	f	#FF7B31	#FFAA53	#4CAF50	t	f	30
+1	Gugulethu	0681553938	manolamukapilusa@Gmail.com	115 unit d Sebayeng \nLimpopo, Polokwane	cr.xerver@gmail.com	2026-04-30 11:29:34.87706	f	{"friday": {"open": "09:00", "close": "19:00", "closed": false}, "monday": {"open": "09:00", "close": "19:00", "closed": false}, "sunday": {"open": "09:00", "close": "19:00", "closed": false}, "tuesday": {"open": "09:00", "close": "19:00", "closed": false}, "saturday": {"open": "09:00", "close": "19:00", "closed": false}, "thursday": {"open": "09:00", "close": "19:00", "closed": false}, "wednesday": {"open": "09:00", "close": "19:00", "closed": false}}	f	#B80D0D	#000000	#d6d6d6	t	t	10
 \.
 
 
@@ -588,7 +596,20 @@ COPY "public"."customer_registrations" ("id", "shop_id", "customer_email", "regi
 --
 
 COPY "public"."menu_items" ("id", "shop_id", "name", "description", "price", "category", "image_url", "is_available", "created_at", "badge", "rating", "preparation_time") FROM stdin;
+15	1	Zone 4	A hearty combo packed for a fuller experience.	27.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547008/01_hbowc2.jpg	t	2026-04-30 11:34:51.23444	Popular	5.0	15-30
 9	8	Burger X	Juicy beef with souces	60.00	Kota	https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80	t	2025-12-31 10:42:34.915049	New	5.0	15-30
+16	1	Zone 5	Big, satisfying kota made for serious appetite.	29.98	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547008/01_hbowc2.jpg	t	2026-04-30 11:38:19.223396	Popular	5.0	15-30
+12	1	Zone 1	A simple, budget-friendly kota to satisfy your hunger.	20.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547008/01_hbowc2.jpg	t	2026-04-30 11:29:36.581426	Popular	5.0	15-20
+13	1	Zone 2	A step up from the basic, more filling and satisfying.	23.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547008/01_hbowc2.jpg	t	2026-04-30 11:29:38.045946	Popular	4.0	15-20
+14	1	Zone 3	Well-balanced kota with a richer, meatier taste.	25.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547008/01_hbowc2.jpg	t	2026-04-30 11:29:39.115717	Hot	3.0	15-20
+17	1	Zone 6	Fully loaded kota, rich, filling and worth it.	35.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547008/01_hbowc2.jpg	t	2026-04-30 11:42:42.233359	New	5.0	15-30
+18	1	Loaf bite	Large loaf kota perfect for sharing or big hunger.	65.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547007/03_jlasnq.jpg	t	2026-04-30 11:47:01.794404	Popular	5.0	15-30
+19	1	Loaf bite Extra	Extra loaded loaf with a premium, heavy feel.	70.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547007/03_jlasnq.jpg	t	2026-04-30 11:50:41.85012	Popular	5.0	15-30
+20	1	Zone 1	Creamy chicken mayo meal with a fresh bite.	27.00	Jalapino	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547014/02_yvjkui.jpg	t	2026-04-30 11:54:30.827018	Popular	4.0	15-25
+21	1	Zone 2	Chicken mayo with a little extra fullness.	30.00	Jalapino	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547014/02_yvjkui.jpg	t	2026-04-30 11:58:00.786468	Hot	5.0	15-30
+22	1	Zone 3	Rich and filling with a flavour satisfaction.	35.00	Jalapino	\N	t	2026-04-30 16:08:31.025568	Hot	4.0	15-30
+23	1	Zone 4	Well-loaded mix for a bold and satisfying bite.	40.00	Jalapino	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547014/02_yvjkui.jpg	t	2026-04-30 16:12:20.649817	Popular	5.0	15-30
+24	1	Zone 5	Fully loaded premium kota for maximum satisfaction.	70.00	Jalapino	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547014/02_yvjkui.jpg	t	2026-04-30 16:19:42.236632	New	5.0	15-30
 7	6	Boom	Extra Everything, plus Extra Cheese and Special Sauce	70.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1774865445/02_twivv5.jpg	t	2025-12-05 13:40:25.431917	2 for 1	5.0	20-30
 2	6	Sharing Master	Delicious sharing tray for family and couples	30.00	Dagwood	https://res.cloudinary.com/duy3ccchs/image/upload/v1774865446/03_ucld1i.jpg	t	2026-03-30 15:27:52.071918	New	4.0	15-30
 3	6	Large Chips	Big portion of hot, crispy chips	30.00	Chips	https://res.cloudinary.com/duy3ccchs/image/upload/v1774865447/05_qnzhcl.jpg	t	2026-03-30 15:34:07.137696	Hot	4.0	15-30
@@ -599,6 +620,14 @@ COPY "public"."menu_items" ("id", "shop_id", "name", "description", "price", "ca
 10	6	Soft drink	Classic Coke, served cold	12.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1774865446/08_zlirs9.jpg	t	2026-03-30 15:58:34.388116	Popular	5.0	15-30
 11	6	Cheese	Fresh slice of melted cheese	5.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1774865447/10_rawe1d.jpg	t	2026-03-30 16:05:51.599006	Popular	5.0	15-30
 1	6	Junior kota	Satisfying and portable for singles	20.00	Kota	https://res.cloudinary.com/duy3ccchs/image/upload/v1774865446/01_n3pr17.jpg	t	2026-03-25 09:17:44.88618	Popular	5.0	15-20
+25	1	Zone 1	Crispy chips, perfect for a quick snack.	25.00	Chips	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547013/04_bzwvra.jpg	t	2026-04-30 16:22:27.958412	Popular	5.0	10-15
+26	1	Zone 2	Medium portion for a more satisfying bite.	30.00	Chips	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547013/04_bzwvra.jpg	t	2026-04-30 16:23:55.710636	Hot	4.0	15-20
+27	1	Zone 3	Large portion chips to keep you full.	35.00	Chips	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547013/04_bzwvra.jpg	t	2026-04-30 16:25:23.254421	New	5.0	15-20
+29	1	Russian	Adds a rich, meaty flavour.	10.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547014/ex3_yxcnea.jpg	t	2026-04-30 16:29:15.199675	Hot	5.0	0-1
+28	1	Vienna	Classic sausage addition.	5.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547007/ex2_rrenu4.jpg	t	2026-04-30 16:28:04.843511	Popular	4.0	0-1
+32	1	Bacon	Smoky and crispy extra.	7.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1777566876/ex5_p99bqj.jpg	t	2026-04-30 16:35:50.320992	Hot	4.0	0-1
+30	1	Cheese	Melted goodness to boost your meal.	3.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547007/ex1_rmltss.jpg	t	2026-04-30 16:30:03.174811	Popular	5.0	0-1
+31	1	Ham	Light and tasty topping.	5.00	Extra	https://res.cloudinary.com/duy3ccchs/image/upload/v1777547010/ex4_ma25ux.jpg	t	2026-04-30 16:32:19.679317	New	5.0	0-1
 \.
 
 
@@ -607,7 +636,51 @@ COPY "public"."menu_items" ("id", "shop_id", "name", "description", "price", "ca
 --
 
 COPY "public"."menu_item_addons" ("id", "menu_item_id", "name", "price", "created_at") FROM stdin;
+122	13	Vienna	0	2026-04-30 11:39:11.458158
+123	13	Polony	0	2026-04-30 11:39:11.458158
+124	13	Chips	0	2026-04-30 11:39:11.458158
 13	9	Extra Cheese	0	2025-12-31 10:42:35.245282
+125	13	Lettuce	0	2026-04-30 11:39:11.458158
+126	13	Half Cheese	0	2026-04-30 11:39:11.458158
+127	13	Cucumber	0	2026-04-30 11:39:11.458158
+128	13	Sauces	0	2026-04-30 11:39:11.458158
+129	13	Half Egg	0	2026-04-30 11:39:11.458158
+130	14	Vienna	0	2026-04-30 11:39:36.961423
+131	14	Polony	0	2026-04-30 11:39:36.961423
+132	14	Chips	0	2026-04-30 11:39:36.961423
+133	14	Lettuce	0	2026-04-30 11:39:36.961423
+134	14	Half Cheese	0	2026-04-30 11:39:36.961423
+135	14	Cucumber	0	2026-04-30 11:39:36.961423
+136	14	Sauces	0	2026-04-30 11:39:36.961423
+137	14	Half Egg	0	2026-04-30 11:39:36.961423
+138	14	Half Russian	0	2026-04-30 11:39:36.961423
+139	17	Vienna	0	2026-04-30 11:42:42.609775
+140	17	Polony	0	2026-04-30 11:42:42.609775
+141	17	Chips	0	2026-04-30 11:42:42.609775
+142	17	Lettuce	0	2026-04-30 11:42:42.609775
+143	17	Half Cheese	0	2026-04-30 11:42:42.609775
+144	17	Cucumber	0	2026-04-30 11:42:42.609775
+145	17	Sauces	0	2026-04-30 11:42:42.609775
+146	17	Full Russian	0	2026-04-30 11:42:42.609775
+147	17	Half Egg	0	2026-04-30 11:42:42.609775
+148	17	Half patty	0	2026-04-30 11:42:42.609775
+149	18	Vienna	0	2026-04-30 11:47:02.257302
+150	18	Chips	0	2026-04-30 11:47:02.257302
+151	18	Lettuce	0	2026-04-30 11:47:02.257302
+152	18	Half Cheese	0	2026-04-30 11:47:02.257302
+153	18	Cucumber	0	2026-04-30 11:47:02.257302
+154	18	Sauces	0	2026-04-30 11:47:02.257302
+155	18	Full Egg	0	2026-04-30 11:47:02.257302
+156	18	Polony	0	2026-04-30 11:47:02.257302
+157	19	Vienna x2	0	2026-04-30 11:50:42.534674
+158	19	Chips	0	2026-04-30 11:50:42.534674
+159	19	Lettuce	0	2026-04-30 11:50:42.534674
+160	19	Full Cheese	0	2026-04-30 11:50:42.534674
+161	19	Cucumber	0	2026-04-30 11:50:42.534674
+162	19	Sauces	0	2026-04-30 11:50:42.534674
+163	19	Full Egg	0	2026-04-30 11:50:42.534674
+164	19	Polony	0	2026-04-30 11:50:42.534674
+165	19	Full Russian	0	2026-04-30 11:50:42.534674
 49	7	Double Extra cheese	0	2026-03-30 15:19:12.41786
 50	7	Double Russian	0	2026-03-30 15:19:12.41786
 51	7	Burger	0	2026-03-30 15:19:12.41786
@@ -631,6 +704,79 @@ COPY "public"."menu_item_addons" ("id", "menu_item_id", "name", "price", "create
 69	1	Tomato	0	2026-03-30 16:06:46.19068
 70	1	Archaar	0	2026-03-30 16:06:46.19068
 71	1	mayo sauce	0	2026-03-30 16:06:46.19068
+174	20	Chicken Mayo	0	2026-04-30 11:55:04.811023
+175	20	Lettuce	0	2026-04-30 11:55:04.811023
+176	20	Cucumber	0	2026-04-30 11:55:04.811023
+177	20	Egg	0	2026-04-30 11:55:04.811023
+178	20	Polony	0	2026-04-30 11:55:04.811023
+179	20	Patty	0	2026-04-30 11:55:04.811023
+96	15	Vienna	0	2026-04-30 11:34:51.860403
+97	15	Polony	0	2026-04-30 11:34:51.860403
+98	15	Chips	0	2026-04-30 11:34:51.860403
+99	15	Lettuce	0	2026-04-30 11:34:51.860403
+100	15	Half Cheese	0	2026-04-30 11:34:51.860403
+101	15	Cucumber	0	2026-04-30 11:34:51.860403
+102	15	Sauces	0	2026-04-30 11:34:51.860403
+103	15	Half Russian	0	2026-04-30 11:34:51.860403
+104	15	Half Egg	0	2026-04-30 11:34:51.860403
+105	16	Vienna	0	2026-04-30 11:38:19.639934
+106	16	Polony	0	2026-04-30 11:38:19.639934
+107	16	Chips	0	2026-04-30 11:38:19.639934
+108	16	Lettuce	0	2026-04-30 11:38:19.639934
+109	16	Half Cheese	0	2026-04-30 11:38:19.639934
+110	16	Cucumber	0	2026-04-30 11:38:19.639934
+111	16	Sauces	0	2026-04-30 11:38:19.639934
+112	16	Half Russian	0	2026-04-30 11:38:19.639934
+113	16	Half Egg	0	2026-04-30 11:38:19.639934
+114	16	Half patty	0	2026-04-30 11:38:19.639934
+115	12	Vienna	0	2026-04-30 11:38:51.015354
+116	12	Polony	0	2026-04-30 11:38:51.015354
+117	12	Chips	0	2026-04-30 11:38:51.015354
+118	12	Lettuce	0	2026-04-30 11:38:51.015354
+119	12	Half Cheese	0	2026-04-30 11:38:51.015354
+120	12	Cucumber	0	2026-04-30 11:38:51.015354
+121	12	Sauces	0	2026-04-30 11:38:51.015354
+180	20	Cheese	0	2026-04-30 11:55:04.811023
+181	20	Vienna	0	2026-04-30 11:55:04.811023
+182	21	Chicken Mayo	0	2026-04-30 11:58:01.357977
+183	21	Lettuce	0	2026-04-30 11:58:01.357977
+184	21	Cucumber	0	2026-04-30 11:58:01.357977
+185	21	Egg	0	2026-04-30 11:58:01.357977
+186	21	Polony	0	2026-04-30 11:58:01.357977
+187	21	Patty	0	2026-04-30 11:58:01.357977
+188	21	Cheese	0	2026-04-30 11:58:01.357977
+189	21	Vienna	0	2026-04-30 11:58:01.357977
+190	21	Half Russian	0	2026-04-30 11:58:01.357977
+191	22	Chicken Mayo	0	2026-04-30 16:08:31.996875
+192	22	Lettuce	0	2026-04-30 16:08:31.996875
+193	22	Cucumber	0	2026-04-30 16:08:31.996875
+194	22	Egg	0	2026-04-30 16:08:31.996875
+195	22	Polony	0	2026-04-30 16:08:31.996875
+196	22	Patty	0	2026-04-30 16:08:31.996875
+197	22	Cheese	0	2026-04-30 16:08:31.996875
+198	22	Vienna	0	2026-04-30 16:08:31.996875
+199	22	Full Russian	0	2026-04-30 16:08:31.996875
+200	23	Chicken Mayo	0	2026-04-30 16:12:21.253769
+201	23	Chicken Mayo	0	2026-04-30 16:12:21.253769
+202	23	Cucumber	0	2026-04-30 16:12:21.253769
+203	23	Egg	0	2026-04-30 16:12:21.253769
+204	23	Polony	0	2026-04-30 16:12:21.253769
+205	23	Patty	0	2026-04-30 16:12:21.253769
+206	23	Cheese	0	2026-04-30 16:12:21.253769
+207	23	x2 Vienna	0	2026-04-30 16:12:21.253769
+208	23	Full Russian	0	2026-04-30 16:12:21.253769
+209	24	Chicken Mayo	0	2026-04-30 16:19:42.844036
+210	24	Lettuce	0	2026-04-30 16:19:42.844036
+211	24	Cucumber	0	2026-04-30 16:19:42.844036
+212	24	Egg	0	2026-04-30 16:19:42.844036
+213	24	Polony	0	2026-04-30 16:19:42.844036
+214	24	Patty	0	2026-04-30 16:19:42.844036
+215	24	Cheese	0	2026-04-30 16:19:42.844036
+216	24	Full Russian	0	2026-04-30 16:19:42.844036
+217	24	Ribs	0	2026-04-30 16:19:42.844036
+219	25	Sauces	0	2026-04-30 16:22:45.557041
+222	26	Sauces	0	2026-04-30 16:26:02.902654
+223	27	Sauces	0	2026-04-30 16:26:26.667628
 \.
 
 
@@ -660,6 +806,7 @@ COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "tota
 COPY "public"."shop_admins" ("id", "shop_id", "admin_email", "created_at") FROM stdin;
 2	6	96studios.app@gmail.com	2025-12-05 13:40:24.808668
 4	8	onclickpcsolutions@gmail.com	2025-12-31 10:42:34.463516
+1	1	manolamukapilusa@Gmail.com	2026-04-30 11:29:35.891868
 \.
 
 
@@ -751,7 +898,7 @@ COPY "storage"."vector_indexes" ("id", "name", "bucket_id", "data_type", "dimens
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 374, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 379, true);
 
 
 --
@@ -779,14 +926,14 @@ SELECT pg_catalog.setval('"public"."customer_registrations_id_seq"', 4, true);
 -- Name: menu_item_addons_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."menu_item_addons_id_seq"', 71, true);
+SELECT pg_catalog.setval('"public"."menu_item_addons_id_seq"', 223, true);
 
 
 --
 -- Name: menu_items_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 11, true);
+SELECT pg_catalog.setval('"public"."menu_items_id_seq"', 32, true);
 
 
 --
@@ -800,7 +947,7 @@ SELECT pg_catalog.setval('"public"."orders_id_seq"', 26, true);
 -- Name: shop_admins_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."shop_admins_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."shop_admins_id_seq"', 1, true);
 
 
 --
@@ -821,7 +968,7 @@ SELECT pg_catalog.setval('"public"."shop_reminders_id_seq"', 2, true);
 -- Name: shops_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."shops_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."shops_id_seq"', 1, true);
 
 
 --
@@ -835,6 +982,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ScS4IPRpiOXuyWl7oSkALlvOkkehH11Aypx3gAB3gdZxV4P1e6lj5cgWxXqjSAE
+-- \unrestrict oG2IdWk4T3LOmgoj9sMZMfyOCiXpgw5j6XCLed9sWtonL3uEubOxefW8r5NJ4Iq
 
 RESET ALL;
