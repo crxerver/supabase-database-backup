@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict tO9kVlyupa81PHmPNOsQHKuEaGNVg8vHUsgPSMMF51igSQvBCarQOGd4IgQjg1T
+-- \restrict bE9Imamaipj4EuZfxESRKRQxo4pcTyjLWV5kBc3j45RLHPeTepgddj3aOlmGN1M
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -141,13 +141,13 @@ COPY "auth"."oauth_clients" ("id", "client_secret_hash", "registration_type", "r
 COPY "auth"."sessions" ("id", "user_id", "created_at", "updated_at", "factor_id", "aal", "not_after", "refreshed_at", "user_agent", "ip", "tag", "oauth_client_id", "refresh_token_hmac_key", "refresh_token_counter", "scopes") FROM stdin;
 93ac1179-02c1-4fe1-8cb3-ea29665ef4a9	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-03-13 08:14:40.486139+00	2026-03-13 08:14:40.486139+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 d3924645-f4ef-4916-94c6-4bf568773592	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-05-13 15:58:21.706272+00	2026-05-20 09:35:28.034195+00	\N	aal1	\N	2026-05-20 09:35:28.034088	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36	102.253.16.18	\N	\N	\N	\N	\N
-a9bb69fd-c474-4cbd-a6cd-0423aef19b8b	142b2b8c-2016-4763-900d-e0196b53bde4	2026-05-30 11:33:50.376625+00	2026-06-10 10:46:16.192467+00	\N	aal1	\N	2026-06-10 10:46:16.192364	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 11bfa2c2-800c-43e3-aed1-2cef8cb29756	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-03-20 07:51:40.220769+00	2026-03-22 20:24:54.572513+00	\N	aal1	\N	2026-03-22 20:24:54.572374	Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1	102.141.124.198	\N	\N	\N	\N	\N
 3766fa02-91ce-4026-86bb-90a5e77256c4	142b2b8c-2016-4763-900d-e0196b53bde4	2026-05-15 12:46:24.090619+00	2026-05-22 06:53:26.782148+00	\N	aal1	\N	2026-05-22 06:53:26.782037	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 b4d7d254-fc90-4958-b431-1407e2c8b861	d5a22630-47b6-49b0-98cc-112aaad13396	2026-05-01 16:52:24.24279+00	2026-05-16 12:48:04.954161+00	\N	aal1	\N	2026-05-16 12:48:04.954056	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	41.25.28.190	\N	\N	\N	\N	\N
 d7e40e0f-79b1-4992-b733-814ef1df996a	d741c16b-0a52-4562-9683-65ee480c52c3	2026-03-13 13:13:41.422846+00	2026-03-13 13:13:41.422846+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 eb4135f4-cb2f-41d9-849f-5e1da487fff6	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-03-13 08:19:11.392433+00	2026-03-13 19:23:23.157186+00	\N	aal1	\N	2026-03-13 19:23:23.156355	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 0b3a7106-66b8-4e73-9ac9-e67a55dbe01c	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-05-22 13:43:49.936255+00	2026-05-22 13:43:49.936255+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
+a9bb69fd-c474-4cbd-a6cd-0423aef19b8b	142b2b8c-2016-4763-900d-e0196b53bde4	2026-05-30 11:33:50.376625+00	2026-06-11 16:54:48.52652+00	\N	aal1	\N	2026-06-11 16:54:48.526401	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 8c15dbad-cd1a-4c8d-9709-520aa1445995	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	2026-03-20 22:54:42.03677+00	2026-03-22 11:11:51.483011+00	\N	aal1	\N	2026-03-22 11:11:51.48177	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 459bf60c-c65d-4990-9341-a9fa42884a4c	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	2026-03-25 21:08:10.200402+00	2026-03-25 22:07:11.641298+00	\N	aal1	\N	2026-03-25 22:07:11.638919	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 8f753d74-3516-4ef0-af4f-ed0f921a05c5	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-05-22 13:50:43.668212+00	2026-05-27 09:34:16.383744+00	\N	aal1	\N	2026-05-27 09:34:16.383636	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
@@ -1292,6 +1292,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 5, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict tO9kVlyupa81PHmPNOsQHKuEaGNVg8vHUsgPSMMF51igSQvBCarQOGd4IgQjg1T
+-- \unrestrict bE9Imamaipj4EuZfxESRKRQxo4pcTyjLWV5kBc3j45RLHPeTepgddj3aOlmGN1M
 
 RESET ALL;
