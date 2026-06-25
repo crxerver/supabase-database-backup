@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict KA69Os9gURvr5ZxRPDO3cbHrRzUNctgtFfrmndqjpyIlb8CWu2i8tpgfqYcHohv
+-- \restrict 7cNh8zaaz1ooKj2DtSr1gGdu9BUxoev0VAKMSvDkPhq6JzLUmB9pND5O2tBlsZ1
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -170,9 +170,9 @@ b459cca4-afdc-484b-bacc-a7d6da7a6fd5	7c85cb2a-9680-4709-9dab-15ad030f1375	2026-0
 8784f43a-c5f3-40fa-9e21-521f4ab1a202	142b2b8c-2016-4763-900d-e0196b53bde4	2026-05-08 09:28:48.839195+00	2026-05-13 15:18:02.251484+00	\N	aal1	\N	2026-05-13 15:18:02.251382	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 ea999063-f5c2-47b1-b154-f6640c893ad8	2a79caa0-f3ed-42c1-934b-ede2bdeabe35	2026-05-13 16:21:57.682831+00	2026-05-13 19:16:57.334093+00	\N	aal1	\N	2026-05-13 19:16:57.333988	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 cf6fcc38-b66a-4ba3-a49a-bb104ea5231e	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-05-13 16:19:43.179384+00	2026-05-13 19:17:09.190396+00	\N	aal1	\N	2026-05-13 19:17:09.190306	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
-2d8461e1-c3cd-467f-916e-efe53418ed8f	142b2b8c-2016-4763-900d-e0196b53bde4	2026-06-16 21:56:24.881185+00	2026-06-22 12:33:18.626502+00	\N	aal1	\N	2026-06-22 12:33:18.626389	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 7f99c253-744a-4cbb-bc5c-d23709d47f8a	8ce65866-5480-4dcd-9589-6d0cd52ed005	2026-05-13 16:10:06.296294+00	2026-05-14 06:33:11.713351+00	\N	aal1	\N	2026-05-14 06:33:11.71267	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 c49d33c5-d13f-4ecf-9a9e-97fc844f62f1	e4007f92-db7a-446a-a199-5ec1fc6408d1	2026-05-22 13:46:10.593617+00	2026-05-22 13:46:10.593617+00	\N	aal1	\N	\N	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
+2d8461e1-c3cd-467f-916e-efe53418ed8f	142b2b8c-2016-4763-900d-e0196b53bde4	2026-06-16 21:56:24.881185+00	2026-06-24 14:09:39.133556+00	\N	aal1	\N	2026-06-24 14:09:39.133425	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	102.254.122.3	\N	\N	\N	\N	\N
 942ade8c-acee-48f8-8c11-b26f8438a83c	7c165bb5-5b45-4978-aacc-416c8b42bf1c	2026-05-16 12:13:32.116168+00	2026-05-16 14:19:33.756635+00	\N	aal1	\N	2026-05-16 14:19:33.75652	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0	102.253.84.13	\N	\N	\N	\N	\N
 5ef59a62-bdce-412e-b1f7-eb743df6bbff	bf7547bd-2fd6-44ae-a544-d3d323c55e30	2026-05-13 16:30:03.060215+00	2026-05-20 14:35:21.301889+00	\N	aal1	\N	2026-05-20 14:35:21.301781	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36	41.25.28.190	\N	\N	\N	\N	\N
 8b98ff2f-2b27-4b6a-a815-4ec72db204d3	142b2b8c-2016-4763-900d-e0196b53bde4	2026-05-21 18:17:30.735024+00	2026-05-26 06:49:43.187844+00	\N	aal1	\N	2026-05-26 06:49:43.187745	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
@@ -1315,6 +1315,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 5, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict KA69Os9gURvr5ZxRPDO3cbHrRzUNctgtFfrmndqjpyIlb8CWu2i8tpgfqYcHohv
+-- \unrestrict 7cNh8zaaz1ooKj2DtSr1gGdu9BUxoev0VAKMSvDkPhq6JzLUmB9pND5O2tBlsZ1
 
 RESET ALL;
