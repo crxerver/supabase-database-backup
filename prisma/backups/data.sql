@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Bx7Ec0t46Q2NbdSwEvhpKZdOd7FXRu6355SxDDMhkWHUEtc7bnkzCG56NvkiaxK
+-- \restrict ikFKY8i11MQ3FVjr8UvZ2KGJUcYPV0ayOO5lQBQU0g5XQXpLgWTVe99K0rDVZmK
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -81,7 +81,7 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 00000000-0000-0000-0000-000000000000	026ba4d8-41e7-4d5e-ac4b-3864dbfa5ef3	authenticated	authenticated	96studios.web@gmail.com	\N	2026-03-25 09:52:56.749922+00	\N		\N		\N			\N	2026-03-25 09:52:56.760133+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "100607388465311126899", "name": "96 Studios", "email": "96studios.web@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKq4VJfQiTRMyYCeHvQgZkN7Uh4-rOx489BA4Ouw8_kBCDphXE=s96-c", "full_name": "96 Studios", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKq4VJfQiTRMyYCeHvQgZkN7Uh4-rOx489BA4Ouw8_kBCDphXE=s96-c", "provider_id": "100607388465311126899", "email_verified": true, "phone_verified": false}	\N	2026-03-25 09:52:56.711779+00	2026-03-27 08:00:54.255737+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	5b232525-05ce-4e4f-b0f5-8bccc5c7f762	authenticated	authenticated	stephensmail.sa@gmail.com	\N	2026-03-20 22:54:42.026364+00	\N		\N		\N			\N	2026-03-25 21:08:10.199164+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "115013125568003146502", "name": "Stephen Kagiso", "email": "stephensmail.sa@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ4179-FGLdhU5BIhvIBShA13LsHCmfVHhNUwJfFCKgDqK6ZQ=s96-c", "full_name": "Stephen Kagiso", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJ4179-FGLdhU5BIhvIBShA13LsHCmfVHhNUwJfFCKgDqK6ZQ=s96-c", "provider_id": "115013125568003146502", "email_verified": true, "phone_verified": false}	\N	2026-03-20 22:54:41.976469+00	2026-03-25 22:07:11.621973+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	authenticated	authenticated	onclickpcsolutions@gmail.com	\N	2026-03-13 08:14:40.483921+00	\N		\N		\N			\N	2026-05-13 16:19:43.175736+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "104866148233403145795", "name": "Onclick", "email": "onclickpcsolutions@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "full_name": "Onclick", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocKpOWKhyvfZCt7Dv6rgeJmalZtmfh712DFjlyDdgZmHbLQmjQ=s96-c", "provider_id": "104866148233403145795", "email_verified": true, "phone_verified": false}	\N	2026-03-13 08:14:40.479441+00	2026-05-13 19:17:09.185985+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	authenticated	authenticated	manolamukapilusa@gmail.com	\N	2026-05-01 12:36:06.64042+00	\N		\N		\N			\N	2026-08-06 17:37:42.822029+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "116265938048898814881", "name": "Manolamuka Pilusa", "email": "manolamukapilusa@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocLlTsrI4CGZdEo0E5xCIZ_aXpSXaV4EX71lOaDdebYGiN7yHQ=s96-c", "full_name": "Manolamuka Pilusa", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLlTsrI4CGZdEo0E5xCIZ_aXpSXaV4EX71lOaDdebYGiN7yHQ=s96-c", "provider_id": "116265938048898814881", "email_verified": true, "phone_verified": false}	\N	2026-05-01 12:36:06.610353+00	2026-08-08 17:11:42.199332+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	authenticated	authenticated	manolamukapilusa@gmail.com	\N	2026-05-01 12:36:06.64042+00	\N		\N		\N			\N	2026-08-06 17:37:42.822029+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "116265938048898814881", "name": "Manolamuka Pilusa", "email": "manolamukapilusa@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocLlTsrI4CGZdEo0E5xCIZ_aXpSXaV4EX71lOaDdebYGiN7yHQ=s96-c", "full_name": "Manolamuka Pilusa", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLlTsrI4CGZdEo0E5xCIZ_aXpSXaV4EX71lOaDdebYGiN7yHQ=s96-c", "provider_id": "116265938048898814881", "email_verified": true, "phone_verified": false}	\N	2026-05-01 12:36:06.610353+00	2026-08-09 13:38:37.271863+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	d5a22630-47b6-49b0-98cc-112aaad13396	authenticated	authenticated	lekaumakgasha@gmail.com	\N	2026-05-01 16:52:24.227376+00	\N		\N		\N			\N	2026-05-01 16:52:24.240611+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "103297357683619860669", "name": "Lekau Makgasha", "email": "lekaumakgasha@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIPtqRs93iQOWElFHFaxGvHDCfHM1Kjff9fM-Py-kvqrm1HoQ=s96-c", "full_name": "Lekau Makgasha", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIPtqRs93iQOWElFHFaxGvHDCfHM1Kjff9fM-Py-kvqrm1HoQ=s96-c", "provider_id": "103297357683619860669", "email_verified": true, "phone_verified": false}	\N	2026-05-01 16:52:24.1566+00	2026-05-16 12:48:04.942896+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	699673aa-e68e-48ac-a389-6f28b30413a2	authenticated	authenticated	dikgalepriscilla37@gmail.com	\N	2026-05-02 05:25:54.728677+00	\N		\N		\N			\N	2026-05-12 15:33:53.004527+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "110741050757407558068", "name": "Priscilla Dikgale", "email": "dikgalepriscilla37@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocI8fswTAqUApOFkgk5oT3BD8OUOGsjXcdG6nSYuj2kBqst_0g=s96-c", "full_name": "Priscilla Dikgale", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocI8fswTAqUApOFkgk5oT3BD8OUOGsjXcdG6nSYuj2kBqst_0g=s96-c", "provider_id": "110741050757407558068", "email_verified": true, "phone_verified": false}	\N	2026-05-02 05:25:54.674256+00	2026-05-12 15:33:53.019523+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	e4007f92-db7a-446a-a199-5ec1fc6408d1	authenticated	authenticated	96studios.app@gmail.com	\N	2026-03-25 09:54:29.53608+00	\N		\N		\N			\N	2026-05-22 13:50:43.668111+00	{"provider": "google", "providers": ["google"]}	{"iss": "https://accounts.google.com", "sub": "111283406834333464244", "name": "96 studios", "email": "96studios.app@gmail.com", "picture": "https://lh3.googleusercontent.com/a/ACg8ocIMdEUG2pF7Th9DhyuSpoZNd21x5zHnAvh7HrdCytoQEklOf3w=s96-c", "full_name": "96 studios", "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIMdEUG2pF7Th9DhyuSpoZNd21x5zHnAvh7HrdCytoQEklOf3w=s96-c", "provider_id": "111283406834333464244", "email_verified": true, "phone_verified": false}	\N	2026-03-25 09:54:29.527734+00	2026-05-27 09:34:16.368702+00	\N	\N			\N		0	\N		\N	f	\N	f
@@ -193,10 +193,10 @@ bc1a33df-ad82-4604-bb9b-a76e4e93cfc7	bf7547bd-2fd6-44ae-a544-d3d323c55e30	2026-0
 942ade8c-acee-48f8-8c11-b26f8438a83c	7c165bb5-5b45-4978-aacc-416c8b42bf1c	2026-05-16 12:13:32.116168+00	2026-05-16 14:19:33.756635+00	\N	aal1	\N	2026-05-16 14:19:33.75652	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0	102.253.84.13	\N	\N	\N	\N	\N
 5ef59a62-bdce-412e-b1f7-eb743df6bbff	bf7547bd-2fd6-44ae-a544-d3d323c55e30	2026-05-13 16:30:03.060215+00	2026-05-20 14:35:21.301889+00	\N	aal1	\N	2026-05-20 14:35:21.301781	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36	41.25.28.190	\N	\N	\N	\N	\N
 15ad835d-e39f-4ecb-b1e7-417db188e834	3f4da27c-ec87-41f7-994b-44e46992ffe2	2026-07-16 14:12:18.774971+00	2026-07-16 14:12:18.774971+00	\N	aal1	\N	\N	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	41.122.195.52	\N	\N	\N	\N	\N
-6fe9da45-2995-465e-a5c5-4fc319b43008	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	2026-08-06 17:37:42.824656+00	2026-08-08 17:11:53.78415+00	\N	aal1	\N	2026-08-08 17:11:53.784048	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36	102.253.84.28	\N	\N	\N	\N	\N
 27203c5b-dec9-4899-9879-1e41617f1367	f3d183f7-9ca1-4e49-afb3-f19902feacd0	2026-07-24 11:26:21.605549+00	2026-07-25 11:39:11.689278+00	\N	aal1	\N	2026-07-25 11:39:11.689172	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	102.254.178.45	\N	\N	\N	\N	\N
 d0792277-d544-48a9-9223-328a39749fea	455c749a-e696-4c7e-acc7-0003ef128b17	2026-07-31 14:45:52.068323+00	2026-07-31 14:45:52.068323+00	\N	aal1	\N	\N	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	102.253.153.34	\N	\N	\N	\N	\N
 4125f335-5714-457e-9545-aacd93c096d5	63c28c0a-3e1d-4957-b582-dc0c37f4e529	2026-08-08 17:23:54.237219+00	2026-08-08 17:23:54.237219+00	\N	aal1	\N	\N	Mozilla/5.0 (Linux; Android 10; MGA-LX9 Build/HUAWEIMGA-LX9; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36HiSearch/22.0.6.315	105.0.1.47	\N	\N	\N	\N	\N
+6fe9da45-2995-465e-a5c5-4fc319b43008	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	2026-08-06 17:37:42.824656+00	2026-08-09 13:38:37.290813+00	\N	aal1	\N	2026-08-09 13:38:37.290711	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36	102.253.84.13	\N	\N	\N	\N	\N
 \.
 
 
@@ -719,8 +719,9 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	879	ek2gppfcwysv	142b2b8c-2016-4763-900d-e0196b53bde4	t	2026-08-06 17:46:49.114567+00	2026-08-08 16:06:24.709658+00	\N	21664843-9ef9-44a2-ad54-28571c040b82
 00000000-0000-0000-0000-000000000000	887	6arohz3ctwk5	142b2b8c-2016-4763-900d-e0196b53bde4	f	2026-08-08 16:06:24.725731+00	2026-08-08 16:06:24.725731+00	ek2gppfcwysv	21664843-9ef9-44a2-ad54-28571c040b82
 00000000-0000-0000-0000-000000000000	886	7kdonmubpxf4	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	t	2026-08-08 15:58:41.987512+00	2026-08-08 17:11:42.171953+00	ynmmerpb23lf	6fe9da45-2995-465e-a5c5-4fc319b43008
-00000000-0000-0000-0000-000000000000	888	jj2jx7c4trki	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	f	2026-08-08 17:11:42.191718+00	2026-08-08 17:11:42.191718+00	7kdonmubpxf4	6fe9da45-2995-465e-a5c5-4fc319b43008
 00000000-0000-0000-0000-000000000000	890	5qmjrkwauehj	63c28c0a-3e1d-4957-b582-dc0c37f4e529	f	2026-08-08 17:23:54.259168+00	2026-08-08 17:23:54.259168+00	\N	4125f335-5714-457e-9545-aacd93c096d5
+00000000-0000-0000-0000-000000000000	888	jj2jx7c4trki	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	t	2026-08-08 17:11:42.191718+00	2026-08-09 13:38:37.220627+00	7kdonmubpxf4	6fe9da45-2995-465e-a5c5-4fc319b43008
+00000000-0000-0000-0000-000000000000	891	enqlkrbngp3c	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	f	2026-08-09 13:38:37.254254+00	2026-08-09 13:38:37.254254+00	jj2jx7c4trki	6fe9da45-2995-465e-a5c5-4fc319b43008
 \.
 
 
@@ -832,6 +833,7 @@ COPY "public"."customer_registrations" ("id", "shop_id", "customer_email", "regi
 20	6	tiangmaatlampc@gmail.com	2026-05-13 16:22:26.905924
 21	1	paulinaranoko@gmail.com	2026-05-14 11:01:59.473575
 22	1	Nkomimanaka@gmail.com	2026-08-08 17:14:17.144183
+23	1	raseboyagerminah@gmail.com	2026-08-09 14:06:20.974624
 \.
 
 
@@ -1137,7 +1139,7 @@ COPY "storage"."vector_indexes" ("id", "name", "bucket_id", "data_type", "dimens
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 890, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 891, true);
 
 
 --
@@ -1158,7 +1160,7 @@ SELECT pg_catalog.setval('"public"."adverts_id_seq"', 5, true);
 -- Name: customer_registrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."customer_registrations_id_seq"', 22, true);
+SELECT pg_catalog.setval('"public"."customer_registrations_id_seq"', 23, true);
 
 
 --
@@ -1221,6 +1223,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 5, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Bx7Ec0t46Q2NbdSwEvhpKZdOd7FXRu6355SxDDMhkWHUEtc7bnkzCG56NvkiaxK
+-- \unrestrict ikFKY8i11MQ3FVjr8UvZ2KGJUcYPV0ayOO5lQBQU0g5XQXpLgWTVe99K0rDVZmK
 
 RESET ALL;
