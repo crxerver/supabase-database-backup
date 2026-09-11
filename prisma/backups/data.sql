@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict esf7krn2oIHjgr1OEGOrvSIfRrcIy1tEoSQC12mYKgBc353eckkDhvgB0njW21N
+-- \restrict 72QOJA6Jv2nILG5tfEz0bFV5G16tUenPBEKZopO9ksHqCNQLXk1RVgY6CQS1VMZ
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -71,6 +71,7 @@ d68b71bf-ca57-4ddb-af75-702de106d1a7	\N	\N	\N	\N	google			2026-05-22 10:24:55.03
 9efa220d-04f3-4fbd-af43-0ea7e8c7ce23	\N	\N	\N	\N	google			2026-08-30 13:37:23.726235+00	2026-08-30 13:37:23.726235+00	oauth	\N	\N	http://fasfood.online	\N	\N	f
 aff9536a-efae-493d-85e8-d1fe13a94055	\N	\N	\N	\N	google			2026-09-02 16:00:03.634854+00	2026-09-02 16:00:03.634854+00	oauth	\N	\N	http://fasfood.online	\N	\N	f
 a82acf3f-becf-4530-a0b4-faad46f55580	\N	\N	\N	\N	google			2026-09-05 16:17:10.007731+00	2026-09-05 16:17:10.007731+00	oauth	\N	\N	http://fasfood.online	\N	\N	f
+7428ba38-e2c1-48c2-8800-12329c3864e2	\N	\N	\N	\N	google			2026-09-10 12:01:27.177332+00	2026-09-10 12:01:27.177332+00	oauth	\N	\N	http://fasfood.online	\N	\N	f
 \.
 
 
@@ -1387,6 +1388,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 6, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict esf7krn2oIHjgr1OEGOrvSIfRrcIy1tEoSQC12mYKgBc353eckkDhvgB0njW21N
+-- \unrestrict 72QOJA6Jv2nILG5tfEz0bFV5G16tUenPBEKZopO9ksHqCNQLXk1RVgY6CQS1VMZ
 
 RESET ALL;
