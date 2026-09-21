@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict 4hAWcwApN2eV1qqwavCrwJP7Df5Ykda0Lohs4AVcB0imXJIl4CFFb15nbV1sf8J
+-- \restrict Q4dt8tUHIIWPzCm6cLnL3P5IdTHWYTqkxHRPRbf36Oqn7tv0o1TOU2brck9w5ML
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -207,6 +207,7 @@ b459cca4-afdc-484b-bacc-a7d6da7a6fd5	7c85cb2a-9680-4709-9dab-15ad030f1375	2026-0
 cbae6632-a440-421a-b051-8489cd1e4e69	142b2b8c-2016-4763-900d-e0196b53bde4	2026-08-27 16:36:21.95996+00	2026-09-18 18:49:41.490806+00	\N	aal1	\N	2026-09-18 18:49:41.490708	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 ea999063-f5c2-47b1-b154-f6640c893ad8	2a79caa0-f3ed-42c1-934b-ede2bdeabe35	2026-05-13 16:21:57.682831+00	2026-05-13 19:16:57.334093+00	\N	aal1	\N	2026-05-13 19:16:57.333988	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
 cf6fcc38-b66a-4ba3-a49a-bb104ea5231e	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-05-13 16:19:43.179384+00	2026-05-13 19:17:09.190396+00	\N	aal1	\N	2026-05-13 19:17:09.190306	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	102.141.124.198	\N	\N	\N	\N	\N
+6fe9da45-2995-465e-a5c5-4fc319b43008	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	2026-08-06 17:37:42.824656+00	2026-09-20 18:07:00.406498+00	\N	aal1	\N	2026-09-20 18:07:00.406383	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36	102.253.97.28	\N	\N	\N	\N	\N
 f02200fe-6266-4a17-bb21-3b69083b0f62	f173158b-6a09-41ea-b500-f5f86b3db2a8	2026-09-06 16:01:03.420751+00	2026-09-06 16:01:03.420751+00	\N	aal1	\N	\N	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1	41.114.22.76	\N	\N	\N	\N	\N
 7f99c253-744a-4cbb-bc5c-d23709d47f8a	8ce65866-5480-4dcd-9589-6d0cd52ed005	2026-05-13 16:10:06.296294+00	2026-05-14 06:33:11.713351+00	\N	aal1	\N	2026-05-14 06:33:11.71267	Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36	105.233.224.10	\N	\N	\N	\N	\N
 031d3a40-677c-49bc-a4a4-24a49978ae87	e3a1ac26-a978-4cc1-86f2-dbbc70ff118b	2026-08-21 23:12:34.780764+00	2026-08-23 09:40:46.838814+00	\N	aal1	\N	2026-08-23 09:40:46.838698	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36	102.254.35.19	\N	\N	\N	\N	\N
@@ -216,7 +217,6 @@ bc1a33df-ad82-4604-bb9b-a76e4e93cfc7	bf7547bd-2fd6-44ae-a544-d3d323c55e30	2026-0
 942ade8c-acee-48f8-8c11-b26f8438a83c	7c165bb5-5b45-4978-aacc-416c8b42bf1c	2026-05-16 12:13:32.116168+00	2026-05-16 14:19:33.756635+00	\N	aal1	\N	2026-05-16 14:19:33.75652	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0	102.253.84.13	\N	\N	\N	\N	\N
 5ef59a62-bdce-412e-b1f7-eb743df6bbff	bf7547bd-2fd6-44ae-a544-d3d323c55e30	2026-05-13 16:30:03.060215+00	2026-05-20 14:35:21.301889+00	\N	aal1	\N	2026-05-20 14:35:21.301781	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36	41.25.28.190	\N	\N	\N	\N	\N
 181bdd20-6151-458f-bb16-57b5c9565e33	142b2b8c-2016-4763-900d-e0196b53bde4	2026-08-22 20:43:52.997079+00	2026-08-22 20:43:52.997079+00	\N	aal1	\N	\N	Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1	102.254.102.13	\N	\N	\N	\N	\N
-6fe9da45-2995-465e-a5c5-4fc319b43008	5108e57f-1b2f-43f2-82ab-43e95e3b3c05	2026-08-06 17:37:42.824656+00	2026-09-16 16:56:56.718188+00	\N	aal1	\N	2026-09-16 16:56:56.71809	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36	102.254.13.11	\N	\N	\N	\N	\N
 15ad835d-e39f-4ecb-b1e7-417db188e834	3f4da27c-ec87-41f7-994b-44e46992ffe2	2026-07-16 14:12:18.774971+00	2026-07-16 14:12:18.774971+00	\N	aal1	\N	\N	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	41.122.195.52	\N	\N	\N	\N	\N
 6d396110-32c8-459d-bb3a-aec9c9aad2db	7a7ca31c-01cf-43d2-9668-5837988c3ac6	2026-08-16 13:27:39.979378+00	2026-08-17 10:52:15.284508+00	\N	aal1	\N	2026-08-17 10:52:15.284398	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1	196.15.245.195	\N	\N	\N	\N	\N
 27203c5b-dec9-4899-9879-1e41617f1367	f3d183f7-9ca1-4e49-afb3-f19902feacd0	2026-07-24 11:26:21.605549+00	2026-07-25 11:39:11.689278+00	\N	aal1	\N	2026-07-25 11:39:11.689172	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	102.254.178.45	\N	\N	\N	\N	\N
@@ -1251,7 +1251,7 @@ COPY "public"."orders" ("id", "shop_id", "customer_email", "order_number", "tota
 77	1	mailamatseba9@gmail.com	A-0001	54	pickup	cash	now	\N	completed	[{"id": 15, "name": "Zone 4", "price": 27, "addons": [], "quantity": 2}]	2026-08-20 13:19:29.222+00	2026-08-20 14:35:38.815+00	online	\N	\N	\N
 84	1	96studios.mails@gmail.com	A-0001	35	pickup	cash	now	\N	completed	[{"id": 22, "name": "Zone 3", "price": 35, "addons": [], "quantity": 1}]	2026-09-07 15:27:59.994+00	2026-09-07 16:46:16.894+00	online	\N	\N	\N
 81	1	mailamatseba9@gmail.com	A-0001	60	pickup	cash	now	\N	completed	[{"id": 21, "name": "Zone 2", "price": 30, "addons": [], "quantity": 2}]	2026-09-01 12:48:34.834+00	2026-09-04 14:29:51.922+00	online	\N	\N	\N
-85	1	96studios.mails@gmail.com	A-0001	40	pickup	cash	now	\N	waiting	[{"id": 23, "name": "Zone 4", "price": 40, "addons": [], "quantity": 1}]	2026-09-18 16:32:29.866+00	2026-09-18 16:32:31.508024+00	online	\N	\N	\N
+85	1	96studios.mails@gmail.com	A-0001	40	pickup	cash	now	\N	completed	[{"id": 23, "name": "Zone 4", "price": 40, "addons": [], "quantity": 1}]	2026-09-18 16:32:29.866+00	2026-09-20 18:07:09.872+00	online	\N	\N	\N
 82	1	96studios.mails@gmail.com	A-0001	40	pickup	cash	now	\N	completed	[{"id": 23, "name": "Zone 4", "price": 40, "addons": [], "quantity": 1}]	2026-09-04 16:13:56.65+00	2026-09-04 17:31:30.226+00	online	\N	\N	\N
 83	1	96studios.mails@gmail.com	A-0001	40	pickup	cash	now	\N	completed	[{"id": 23, "name": "Zone 4", "price": 40, "addons": [], "quantity": 1}]	2026-09-06 15:59:35.636+00	2026-09-06 17:36:36.603+00	online	\N	\N	\N
 \.
@@ -1445,6 +1445,6 @@ SELECT pg_catalog.setval('"public"."user_profiles_id_seq"', 6, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict 4hAWcwApN2eV1qqwavCrwJP7Df5Ykda0Lohs4AVcB0imXJIl4CFFb15nbV1sf8J
+-- \unrestrict Q4dt8tUHIIWPzCm6cLnL3P5IdTHWYTqkxHRPRbf36Oqn7tv0o1TOU2brck9w5ML
 
 RESET ALL;
